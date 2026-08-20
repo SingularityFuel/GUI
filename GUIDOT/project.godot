@@ -19,6 +19,11 @@ config/description="General Modular GODOT GUI"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://import/icon.svg"
 
+[autoload]
+
+G="*uid://caj3ybk4r5mb2"
+S="*uid://c4y3ep20eb13i"
+
 [display]
 
 window/size/viewport_width=1600
