@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://drjtntp45egdq"]
+
+[ext_resource type="Script" uid="uid://k7kyer1omgor" path="res://code/components/relabel.gd" id="1_wnoh8"]
+
+[node name="ButtonRect5Txt" type="Control" unique_id=1289593349 node_paths=PackedStringArray("L")]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 150.0
+offset_bottom = 50.0
+script = ExtResource("1_wnoh8")
+L = NodePath("ColorRectM/LabelB")
+
+[node name="ColorRectB" type="ColorRect" parent="." unique_id=1552988893]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRectM" type="ColorRect" parent="." unique_id=2027920786]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = -5.0
+offset_bottom = -5.0
+color = Color(0.05882353, 0.05882353, 0.05882353, 1)
+
+[node name="LabelB" type="Label" parent="ColorRectM" unique_id=1592859352]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 12
+text = "EXAMPLE LABEL [ ESC ]"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+text_overrun_behavior = 3
