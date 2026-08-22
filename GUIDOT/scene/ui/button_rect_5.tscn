@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://06ho25sg5gei"]
+
+[node name="ControlSize" type="Control" unique_id=1289593349]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 150.0
+offset_bottom = 50.0
+
+[node name="ColorRectB" type="ColorRect" parent="." unique_id=1552988893]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ColorRectM" type="ColorRect" parent="." unique_id=2027920786]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = -5.0
+offset_bottom = -5.0
+color = Color(0.05882353, 0.05882353, 0.05882353, 1)
