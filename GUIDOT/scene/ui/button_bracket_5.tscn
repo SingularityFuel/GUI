@@ -1,10 +1,13 @@
 [gd_scene format=3 uid="uid://bn6sc50d8g011"]
 
+[ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/components/recolor.gd" id="1_wtxcf"]
+
 [node name="ControlSize" type="Control" unique_id=1289593349]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 150.0
 offset_bottom = 50.0
+script = ExtResource("1_wtxcf")
 
 [node name="ColorRectB" type="ColorRect" parent="." unique_id=1552988893]
 layout_mode = 1

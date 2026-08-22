@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://cgy8muey4qia0"]
 
-[node name="ControlSize" type="Control" unique_id=1289593349]
+[ext_resource type="Script" uid="uid://k7kyer1omgor" path="res://code/components/relabel.gd" id="1_mg3ta"]
+
+[node name="ControlSize" type="Control" unique_id=1289593349 node_paths=PackedStringArray("L")]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 150.0
 offset_bottom = 50.0
+script = ExtResource("1_mg3ta")
+L = NodePath("ColorRectM/LabelB")
 
 [node name="ColorRectB" type="ColorRect" parent="." unique_id=1552988893]
 layout_mode = 1
