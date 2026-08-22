@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bn6sc50d8g011"]
 
-[node name="ControlX" type="Control" unique_id=1289593349]
+[node name="ControlSize" type="Control" unique_id=1289593349]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 150.0
