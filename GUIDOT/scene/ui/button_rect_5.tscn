@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/components/recolor.gd" id="1_tt03a"]
 
-[node name="ControlSize" type="Control" unique_id=1289593349]
+[node name="ButtonRect5" type="Control" unique_id=1289593349]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 150.0

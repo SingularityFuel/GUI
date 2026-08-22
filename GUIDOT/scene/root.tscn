@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cmhgp33lwm2ch"]
 
-[node name="ControlBG" type="Control" unique_id=1500722559]
+[node name="Root" type="Control" unique_id=1500722559]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
