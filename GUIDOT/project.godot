@@ -23,7 +23,9 @@ config/icon="res://import/icon.svg"
 [autoload]
 
 G="*uid://caj3ybk4r5mb2"
+L="*uid://iindnyxaqxjo"
 S="*uid://c4y3ep20eb13i"
+K="*uid://ds3pm5sb3j0ol"
 
 [display]
 
