@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://06ho25sg5gei"]
 
-[ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/components/recolor.gd" id="1_tt03a"]
+[ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/micros/recolor.gd" id="1_tt03a"]
 
 [node name="ButtonRect5" type="Control" unique_id=1289593349]
 layout_mode = 3

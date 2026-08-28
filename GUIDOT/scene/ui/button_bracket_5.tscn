@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bn6sc50d8g011"]
 
-[ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/components/recolor.gd" id="1_wtxcf"]
+[ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/micros/recolor.gd" id="1_wtxcf"]
 
 [node name="ButtonBracket5" type="Control" unique_id=1289593349]
 layout_mode = 3

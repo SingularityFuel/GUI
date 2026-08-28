@@ -1,3 +1,4 @@
+class_name ReLabel
 extends ReColor
 
 @export var L: Label
