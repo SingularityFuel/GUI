@@ -51,11 +51,11 @@ func _ready() -> void:
 	# Construct State Machine
 	PopulateStates()
 	PopulateTransitions()
-	# Initialize Primary Game Node
-	for child in get_children():
-		child.hide()
 	# Initialize State Machine
-	assert(States["MainMenu"])
+	for s in States:
+		for n in States[s].Items:
+			n.hide()
+	assert(States["MainMenu"], "Main Menu State Exists")
 	GameState = "MainMenu"
 	for n in States["MainMenu"].Items:
 		n.show()
@@ -98,13 +98,21 @@ func PopulateStates() -> void:
 		MainMenuTeamBuilder,
 		MainMenuSkillPreview,
 	)
+	AddState(
+		"Navigation-Intro",
+		NavDungeonBG,
+		NavDungeonBase,
+		NavDungeonIntro,
+	)
+	AddState(
+		"Navigation",
+		NavDungeonBG,
+		NavDungeonBase,
+	)
 	#
 	#	TODO: Complete the state list
 	#
 
-func AddState(sName:String, ...a:Array) -> void:
-	assert(not States[sName])
-	States[sName] = State.New(a)
 
 func PopulateTransitions() -> void:
 	Transitions = {}
@@ -130,12 +138,16 @@ func PopulateTransitions() -> void:
 	#			Also automatically reject duplicate bindings.
 	#
 
+func AddState(sName:String, ...shows:Array) -> void:
+	assert(not States.has(sName), "uniqueness")
+	States[sName] = State.New(shows)
+
 func AddOneWayTransition(from:String, to:String) -> void:
 	var tName:String = from + ">" + to
-	assert(not Transitions[tName])
-	assert(States[from])
-	assert(States[to])
-	Transition[tName] = Transition.New(States[from],States[to])
+	assert(not Transitions.has(tName), "uniqueness")
+	assert(States.has(from), "States.has " + from)
+	assert(States.has(to), "States.has " + to)
+	Transitions[tName] = Transition.New(States[from],States[to])
 
 func AddTwoWayTransition(from:String, to:String) -> void:
 	AddOneWayTransition(from,to)
@@ -144,11 +156,11 @@ func AddTwoWayTransition(from:String, to:String) -> void:
 # Component
 class State:
 	var Items: Array[Node]
-	static func New(...a: Array) -> State:
+	static func New(a: Array) -> State:
 		var s = State.new()
 		for n in a:
-			assert(n is Node)
-			s.Items.append(n)
+			if n != null:
+				s.Items.append(n)
 		return s
 
 # Component

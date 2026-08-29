@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://dj6sfo4155223" path="res://mimic/monsters_den.gd" id="1_7x56s"]
 [ext_resource type="PackedScene" uid="uid://drjtntp45egdq" path="res://scene/ui/button_rect_5_txt.tscn" id="2_4gq7e"]
 
-[node name="MonstersDen" type="Control" unique_id=2111453994]
+[node name="MonstersDen" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,6 +11,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_7x56s")
+MainMenuBase = NodePath("MainMenuBounds/MainMenuColumn")
 metadata/_edit_lock_ = true
 
 [node name="BlackBG" type="ColorRect" parent="." unique_id=1865416488]
