@@ -47,6 +47,12 @@ var GameState:String = "None"
 var States: Dictionary[String,State] = {}
 var Transitions: Dictionary[String,Transition] = {}
 
+#############################################
+##-----------------------------------------##
+##               Bootstrap                 ##
+##-----------------------------------------##
+#############################################
+
 func _ready() -> void:
 	# Construct State Machine
 	PopulateStates()
@@ -59,6 +65,12 @@ func _ready() -> void:
 	GameState = "MainMenu"
 	for n in States["MainMenu"].Items:
 		n.show()
+
+#############################################
+##-----------------------------------------##
+##         Specific Game Structure         ##
+##-----------------------------------------##
+#############################################
 
 func PopulateStates() -> void:
 	States = {}
@@ -113,7 +125,6 @@ func PopulateStates() -> void:
 	#	TODO: Complete the state list
 	#
 
-
 func PopulateTransitions() -> void:
 	Transitions = {}
 	# Main Menu
@@ -138,6 +149,12 @@ func PopulateTransitions() -> void:
 	#			Also automatically reject duplicate bindings.
 	#
 
+#############################################
+##-----------------------------------------##
+##         State Machine Builders          ##
+##-----------------------------------------##
+#############################################
+
 func AddState(sName:String, ...shows:Array) -> void:
 	assert(not States.has(sName), "uniqueness")
 	States[sName] = State.New(shows)
@@ -153,7 +170,12 @@ func AddTwoWayTransition(from:String, to:String) -> void:
 	AddOneWayTransition(from,to)
 	AddOneWayTransition(to,from)
 
-# Component
+#############################################
+##-----------------------------------------##
+##               Custom Types              ##
+##-----------------------------------------##
+#############################################
+
 class State:
 	var Items: Array[Node]
 	static func New(a: Array) -> State:
@@ -163,7 +185,6 @@ class State:
 				s.Items.append(n)
 		return s
 
-# Component
 class Transition:
 	var Shows: Array[Node]
 	var Hides: Array[Node]
