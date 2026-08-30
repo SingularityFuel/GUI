@@ -1,0 +1,449 @@
+[gd_scene format=3 uid="uid://by845cyd4f0gs"]
+
+[ext_resource type="Script" uid="uid://dj6sfo4155223" path="res://mimic/dungeon_crawl.gd" id="1_sh85g"]
+[ext_resource type="PackedScene" uid="uid://drjtntp45egdq" path="res://scene/ui/button_rect_5_txt.tscn" id="2_jdwgi"]
+[ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/micros/recolor.gd" id="3_jyk6y"]
+
+[node name="DungeonCrawl" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase", "MainMenuOptions", "MainMenuNewSlotter", "MainMenuDiffSelector", "MainMenuTeamBuilder", "MainMenuSlot1", "MainMenuSlot2", "MainMenuSlot3", "NavDungeonHUD", "NavDungeonIntro")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sh85g")
+MainMenuBase = NodePath("MainMenuBounds/MainMenuZone")
+MainMenuOptions = NodePath("MainMenuBounds/MainOptionsZone")
+MainMenuNewSlotter = NodePath("MainMenuBounds/NewGameZone")
+MainMenuDiffSelector = NodePath("MainMenuBounds/DifficultySelectZone")
+MainMenuTeamBuilder = NodePath("MainMenuBounds/TeamSelectZone")
+MainMenuSlot1 = NodePath("MainMenuBounds/NewGameZone/Slot1")
+MainMenuSlot2 = NodePath("MainMenuBounds/NewGameZone/Slot2")
+MainMenuSlot3 = NodePath("MainMenuBounds/NewGameZone/Slot3")
+NavDungeonHUD = NodePath("NavigationBounds/NavigationHUDZone")
+NavDungeonIntro = NodePath("NavigationBounds/IntroZone")
+metadata/_edit_lock_ = true
+
+[node name="BlackBG" type="ColorRect" parent="." unique_id=1865416488]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="MainMenuBounds" type="ReferenceRect" parent="." unique_id=1033885167]
+layout_mode = 0
+offset_right = 1600.0
+offset_bottom = 900.0
+border_width = 5.0
+metadata/_edit_lock_ = true
+
+[node name="MainMenuZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=1014263606]
+visible = false
+custom_minimum_size = Vector2(200, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtPlay" parent="MainMenuBounds/MainMenuZone" unique_id=4709135 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 175.0
+offset_right = 175.0
+offset_bottom = 225.0
+text = "Play [ 1 ]"
+color = Color(0, 1, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtOpts" parent="MainMenuBounds/MainMenuZone" unique_id=1802007924 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 250.0
+offset_right = 175.0
+offset_bottom = 300.0
+text = "Options [ 2 ]"
+color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtExit" parent="MainMenuBounds/MainMenuZone" unique_id=750098840 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 325.0
+offset_right = 175.0
+offset_bottom = 375.0
+text = "Exit [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/MainMenuZone" unique_id=819037051]
+layout_mode = 0
+offset_right = 200.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="MainMenuBounds/MainMenuZone/TitleBounds" unique_id=1516052321]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "CRAWL"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="NewGameZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=1529905916]
+visible = false
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtBack" parent="MainMenuBounds/NewGameZone" unique_id=1222441480 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 325.0
+offset_right = 175.0
+offset_bottom = 375.0
+text = "Back [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtNext" parent="MainMenuBounds/NewGameZone" unique_id=1057605320 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 225.0
+offset_top = 325.0
+offset_right = 375.0
+offset_bottom = 375.0
+text = "Choose [ 1 ]"
+color = Color(0, 1, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtDelete" parent="MainMenuBounds/NewGameZone" unique_id=1762030207 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 325.0
+offset_right = 575.0
+offset_bottom = 375.0
+text = "Delete [ 2 ]"
+color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/NewGameZone" unique_id=2100748610]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="MainMenuBounds/NewGameZone/TitleBounds" unique_id=1426185286]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "SELECT SAVE SLOT"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="Slot1" type="ColorRect" parent="MainMenuBounds/NewGameZone" unique_id=1743313777]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 100.0
+offset_right = 185.0
+offset_bottom = 300.0
+script = ExtResource("3_jyk6y")
+
+[node name="Slot2" type="ColorRect" parent="MainMenuBounds/NewGameZone" unique_id=1152949128]
+layout_mode = 0
+offset_left = 220.0
+offset_top = 100.0
+offset_right = 380.0
+offset_bottom = 300.0
+script = ExtResource("3_jyk6y")
+
+[node name="Slot3" type="ColorRect" parent="MainMenuBounds/NewGameZone" unique_id=1091142803]
+layout_mode = 0
+offset_left = 415.0
+offset_top = 100.0
+offset_right = 575.0
+offset_bottom = 300.0
+script = ExtResource("3_jyk6y")
+
+[node name="DifficultySelectZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=1466807684]
+visible = false
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtBack" parent="MainMenuBounds/DifficultySelectZone" unique_id=274016231 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 325.0
+offset_right = 175.0
+offset_bottom = 375.0
+text = "Back [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtNext" parent="MainMenuBounds/DifficultySelectZone" unique_id=752330187 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 325.0
+offset_right = 575.0
+offset_bottom = 375.0
+text = "Next [ 1 ]"
+color = Color(0, 1, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/DifficultySelectZone" unique_id=1073857333]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="MainMenuBounds/DifficultySelectZone/TitleBounds" unique_id=1081689662]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "SET DIFFICULTY"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="TeamSelectZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=520449835]
+visible = false
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtBack" parent="MainMenuBounds/TeamSelectZone" unique_id=2113246970 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 325.0
+offset_right = 175.0
+offset_bottom = 375.0
+text = "Back [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtNext" parent="MainMenuBounds/TeamSelectZone" unique_id=604895901 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 425.0
+offset_top = 325.0
+offset_right = 575.0
+offset_bottom = 375.0
+text = "Begin [ 1 ]"
+color = Color(0, 1, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/TeamSelectZone" unique_id=1055520328]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="MainMenuBounds/TeamSelectZone/TitleBounds" unique_id=1900186255]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "SELECT TEAM"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="MainOptionsZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=391127487]
+visible = false
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtBack" parent="MainMenuBounds/MainOptionsZone" unique_id=1526286147 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 325.0
+offset_right = 175.0
+offset_bottom = 375.0
+text = "Back [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/MainOptionsZone" unique_id=447461824]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="MainMenuBounds/MainOptionsZone/TitleBounds" unique_id=1096466156]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "Options"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
+[node name="NavigationBounds" type="ReferenceRect" parent="." unique_id=856969252]
+layout_mode = 0
+offset_right = 1600.0
+offset_bottom = 900.0
+border_width = 5.0
+metadata/_edit_lock_ = true
+
+[node name="NavigationHUDZone" type="ReferenceRect" parent="NavigationBounds" unique_id=1206054214]
+visible = false
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtExit" parent="NavigationBounds/NavigationHUDZone" unique_id=1923139573 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 25.0
+offset_right = 175.0
+offset_bottom = 75.0
+text = "Main Menu [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtInventory" parent="NavigationBounds/NavigationHUDZone" unique_id=1589455559 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 25.0
+offset_right = 350.0
+offset_bottom = 75.0
+text = "Inventory [ ]"
+color = Color(0, 1, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="BtOpts" parent="NavigationBounds/NavigationHUDZone" unique_id=1885655467 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 375.0
+offset_top = 25.0
+offset_right = 525.0
+offset_bottom = 75.0
+text = "Options [ ]"
+color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="IntroZone" type="ReferenceRect" parent="NavigationBounds" unique_id=1948932453]
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -200.0
+offset_right = 300.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtDismiss" parent="NavigationBounds/IntroZone" unique_id=1510347416 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 225.0
+offset_top = 325.0
+offset_right = 375.0
+offset_bottom = 375.0
+text = "Dismiss [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="NavigationBounds/IntroZone" unique_id=1385162474]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="NavigationBounds/IntroZone/TitleBounds" unique_id=1214865292]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "ATTENTION"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true

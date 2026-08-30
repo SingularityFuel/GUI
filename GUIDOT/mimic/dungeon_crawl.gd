@@ -15,12 +15,17 @@ extends Control
 @export var MainMenuNewSlotter: Node 
 @export var MainMenuDiffSelector: Node 
 @export var MainMenuTeamBuilder: Node 
-@export var MainMenuSkillPreview: Node 
-@export var MainMenuLoadSlotter: Node
+@export var MainMenuSkillPreview: Node
+
+# For actions
+@export var MainMenuSlot1: Node 
+@export var MainMenuSlot2: Node 
+@export var MainMenuSlot3: Node 
 
 # For toggling visibility
 @export var NavDungeonBG: Node
 @export var NavDungeonBase: Node
+@export var NavDungeonHUD: Node
 @export var NavDungeonIntro: Node
 @export var NavDungeonScore: Node
 @export var NavDungeonQuit: Node
@@ -47,6 +52,9 @@ var GameState:String = "None"
 var States: Dictionary[String,State] = {}
 var Transitions: Dictionary[String,Transition] = {}
 
+# Specific State
+var SaveSlot = 1
+
 #############################################
 ##-----------------------------------------##
 ##               Bootstrap                 ##
@@ -63,6 +71,7 @@ func _ready() -> void:
 			n.hide()
 	assert(States["MainMenu"], "Main Menu State Exists")
 	GameState = "MainMenu"
+	InitState()
 	for n in States["MainMenu"].Items:
 		n.show()
 	# Triggers
@@ -75,11 +84,12 @@ func _ready() -> void:
 #############################################
 
 func _onKey(k:String) -> void:
-	print(k)
-	# Check transition trigger
-	var tName:String = GameState + " + [" + k + "]"
-	if Transitions.has(tName):
-		DoTransition(Transitions[tName])
+	var action:String = GameState + " [" + k + "]"
+	# Custom actions first
+	DoAction(action)
+	# Then transition
+	if Transitions.has(action):
+		DoTransition(Transitions[action])
 
 #############################################
 ##-----------------------------------------##
@@ -93,7 +103,40 @@ func DoTransition(t:Transition) -> void:
 	for n in t.Shows:
 		n.show()
 	GameState = t.To
+	InitState()
 	pass
+
+func InitState() -> void:
+	# Runs after any transition, and on game start
+	match GameState:
+		"MainMenu-Play":
+			HighlightSaveSlots()
+
+func DoAction(action:String) -> void:
+	match action:
+		"MainMenu [Escape]":
+			get_tree().quit()
+		"MainMenu-Play [Left]":
+			match SaveSlot:
+				2,3: SaveSlot -= 1
+				_: SaveSlot = 3
+			HighlightSaveSlots()
+		"MainMenu-Play [Right]":
+			match SaveSlot:
+				1,2: SaveSlot += 1
+				_: SaveSlot = 1
+			HighlightSaveSlots()
+		"MainMenu-New [2]":
+			pass # TODO: Delete data in save slot
+
+func HighlightSaveSlots() -> void:
+	MainMenuSlot1.modulate = Color.DIM_GRAY
+	MainMenuSlot2.modulate = Color.DIM_GRAY
+	MainMenuSlot3.modulate = Color.DIM_GRAY
+	match SaveSlot:
+		1: MainMenuSlot1.modulate = Color.GRAY
+		2: MainMenuSlot2.modulate = Color.GRAY
+		3: MainMenuSlot3.modulate = Color.GRAY
 
 #############################################
 ##-----------------------------------------##
@@ -114,12 +157,7 @@ func PopulateStates() -> void:
 		MainMenuOptions,
 	)
 	AddState(
-		"MainMenu-Load",
-		MainMenuBG,
-		MainMenuLoadSlotter,
-	)
-	AddState(
-		"MainMenu-New",
+		"MainMenu-Play",
 		MainMenuBG,
 		MainMenuNewSlotter,
 	)
@@ -149,6 +187,7 @@ func PopulateStates() -> void:
 		"Navigation",
 		NavDungeonBG,
 		NavDungeonBase,
+		NavDungeonHUD,
 	)
 	#
 	#	TODO: Complete the state list
@@ -157,14 +196,12 @@ func PopulateStates() -> void:
 func PopulateTransitions() -> void:
 	Transitions = {}
 	# Main Menu
-	AddTwoWayTransition("1","MainMenu","MainMenu-New")
-	AddTwoWayTransition("2","MainMenu","MainMenu-Load")
-	AddTwoWayTransition("3","MainMenu","MainMenu-Opts")
-	AddTwoWayTransition("1","MainMenu-New","MainMenu-DiffSelect")
+	AddTwoWayTransition("1","MainMenu","MainMenu-Play")
+	AddTwoWayTransition("2","MainMenu","MainMenu-Opts")
+	AddTwoWayTransition("1","MainMenu-Play","MainMenu-DiffSelect")
 	AddTwoWayTransition("1","MainMenu-DiffSelect","MainMenu-TeamBuild")
 	AddTwoWayTransition("2","MainMenu-TeamBuild","MainMenu-SkillPreview")
 	# Launch
-	AddOneWayTransition("1","MainMenu-Load","Navigation")
 	AddOneWayTransition("1","MainMenu-TeamBuild","Navigation-Intro")
 	# Exit
 	AddOneWayTransition("Escape","Navigation","MainMenu")
@@ -185,7 +222,7 @@ func AddState(sName:String, ...shows:Array) -> void:
 	States[sName] = State.New(sName, shows)
 
 func AddOneWayTransition(key:String,from:String, to:String) -> void:
-	var tName:String = from + " + [" + key + "]"
+	var tName:String = from + " [" + key + "]"
 	assert(not Transitions.has(tName), "uniqueness")
 	assert(States.has(from), "States.has " + from)
 	assert(States.has(to), "States.has " + to)

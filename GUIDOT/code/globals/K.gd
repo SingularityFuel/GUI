@@ -15,6 +15,10 @@ var LETTERS = [
 
 var ODDKEYS = [
 	"Escape",
+	"Up",
+	"Down",
+	"Left",
+	"Right",
 	"Space"
 ]
 
