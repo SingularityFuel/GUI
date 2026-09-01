@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://q12bewkc0gql" path="res://mimic/dungeon_crawl/room_3_3.tscn" id="5_ggcpa"]
 [ext_resource type="PackedScene" uid="uid://dt7htblrt5d0a" path="res://mimic/dungeon_crawl/corridor_2.tscn" id="6_8fgia"]
 
-[node name="DungeonCrawl" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase", "MainMenuOptions", "MainMenuNewSlotter", "MainMenuDiffSelector", "MainMenuTeamBuilder", "MainMenuSlot1", "MainMenuSlot2", "MainMenuSlot3", "NavDungeonHUD", "NavDungeonIntro", "DungeonFloor", "DungeonNetwork")]
+[node name="DungeonCrawl" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase", "MainMenuOptions", "MainMenuNewSlotter", "MainMenuDiffSelector", "MainMenuTeamBuilder", "MainMenuSlot1", "MainMenuSlot2", "MainMenuSlot3", "NavDungeonBase", "NavDungeonHUD", "NavDungeonIntro", "DungeonFloor", "DungeonNetwork")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,6 +24,7 @@ MainMenuTeamBuilder = NodePath("MainMenuBounds/TeamSelectZone")
 MainMenuSlot1 = NodePath("MainMenuBounds/NewGameZone/Slot1")
 MainMenuSlot2 = NodePath("MainMenuBounds/NewGameZone/Slot2")
 MainMenuSlot3 = NodePath("MainMenuBounds/NewGameZone/Slot3")
+NavDungeonBase = NodePath("NavigationBounds/NavMinZone")
 NavDungeonHUD = NodePath("NavigationBounds/NavigationHUDZone")
 NavDungeonIntro = NodePath("NavigationBounds/IntroZone")
 DungeonFloor = NodePath("NavigationBounds/NavMinZone/DungeonFloor")
@@ -363,6 +364,54 @@ offset_bottom = 900.0
 border_width = 5.0
 metadata/_edit_lock_ = true
 
+[node name="NavMinZone" type="ReferenceRect" parent="NavigationBounds" unique_id=234580827]
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -300.0
+offset_top = -200.0
+offset_right = 300.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(0, 1, 0.735357, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="DungeonFloor" type="Node2D" parent="NavigationBounds/NavMinZone" unique_id=57553086]
+position = Vector2(300, 200)
+
+[node name="Corridor3" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=1310475724 node_paths=PackedStringArray("Links") instance=ExtResource("4_k5gp8")]
+Links = {
+"Right": NodePath("../Room33")
+}
+
+[node name="Room33" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=684839722 node_paths=PackedStringArray("Links") instance=ExtResource("5_ggcpa")]
+position = Vector2(150, 0)
+Links = {
+"Down": NodePath("../Corridor2"),
+"Left": NodePath("../Corridor3")
+}
+
+[node name="Corridor2" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=1295810878 node_paths=PackedStringArray("Links") instance=ExtResource("6_8fgia")]
+position = Vector2(200, 200)
+rotation = 3.1415927
+Links = {
+"Left": NodePath("../Room22"),
+"Up": NodePath("../Room33")
+}
+
+[node name="Room22" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=1112662656 node_paths=PackedStringArray("Links") instance=ExtResource("4_qd48e")]
+position = Vector2(100, 150)
+rotation = 1.5707964
+Links = {
+"Right": NodePath("../Corridor2")
+}
+
 [node name="NavigationHUDZone" type="ReferenceRect" parent="NavigationBounds" unique_id=1206054214]
 visible = false
 custom_minimum_size = Vector2(600, 400)
@@ -454,51 +503,3 @@ text = "ATTENTION"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
-
-[node name="NavMinZone" type="ReferenceRect" parent="NavigationBounds" unique_id=234580827]
-custom_minimum_size = Vector2(600, 400)
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -300.0
-offset_top = -200.0
-offset_right = 300.0
-offset_bottom = 200.0
-grow_horizontal = 2
-grow_vertical = 2
-border_color = Color(0, 1, 0.735357, 1)
-border_width = 2.0
-metadata/_edit_lock_ = true
-
-[node name="DungeonFloor" type="Node2D" parent="NavigationBounds/NavMinZone" unique_id=57553086]
-position = Vector2(300, 200)
-
-[node name="Corridor3" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=1310475724 node_paths=PackedStringArray("Links") instance=ExtResource("4_k5gp8")]
-Links = {
-"Right": NodePath("../Room33")
-}
-
-[node name="Room33" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=684839722 node_paths=PackedStringArray("Links") instance=ExtResource("5_ggcpa")]
-position = Vector2(150, 0)
-Links = {
-"Down": NodePath("../Corridor2"),
-"Left": NodePath("../Corridor3")
-}
-
-[node name="Corridor2" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=1295810878 node_paths=PackedStringArray("Links") instance=ExtResource("6_8fgia")]
-position = Vector2(200, 200)
-rotation = 3.1415927
-Links = {
-"Left": NodePath("../Room22"),
-"Up": NodePath("../Room33")
-}
-
-[node name="Room22" parent="NavigationBounds/NavMinZone/DungeonFloor" unique_id=1112662656 node_paths=PackedStringArray("Links") instance=ExtResource("4_qd48e")]
-position = Vector2(100, 150)
-rotation = 1.5707964
-Links = {
-"Right": NodePath("../Corridor2")
-}
