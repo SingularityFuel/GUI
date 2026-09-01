@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bvburic4mgfvo"]
+
+[ext_resource type="Script" uid="uid://d11abjvmnl0qp" path="res://code/micros/network2d.gd" id="1_g6fto"]
+
+[node name="Corridor3" type="Node2D" unique_id=1112662656]
+script = ExtResource("1_g6fto")
+metadata/_custom_type_script = "uid://d11abjvmnl0qp"
+
+[node name="Full" type="ColorRect" parent="." unique_id=948622641]
+offset_right = 150.0
+offset_bottom = 50.0
+color = Color(0.3491902, 0.3491902, 0.3491902, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="Inner" type="ColorRect" parent="." unique_id=1459134323]
+offset_left = 5.0
+offset_top = 5.0
+offset_right = 145.0
+offset_bottom = 45.0
+color = Color(0.48452926, 0.48452926, 0.48452926, 1)
+metadata/_edit_use_anchors_ = true
