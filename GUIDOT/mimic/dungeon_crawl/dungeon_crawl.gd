@@ -33,6 +33,9 @@ extends Control
 @export var NavDungeonOptions: Node
 @export var NavDungeonLoot: Node
 
+@export var DungeonFloor:Node2D
+@export var DungeonNetwork:Array[Network2D]
+
 # For toggling visibility
 @export var InventoryBG: Node
 @export var InventoryBase: Node
