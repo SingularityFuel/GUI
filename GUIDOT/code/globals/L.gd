@@ -8,6 +8,7 @@ extends Node
 var LogNumKeys:bool = false
 var LogAbcKeys:bool = false
 var LogOddKeys:bool = false
+var LogAnyKeys:bool = false
 
 func logNumKey(i:int) -> void:
 	if LogNumKeys:
@@ -19,4 +20,8 @@ func logAbcKey(s:String) -> void:
 
 func logOddKey(s:String) -> void:
 	if LogOddKeys:
+		print("KEY: ",s)
+
+func logAnyKey(s:String) -> void:
+	if LogAnyKeys:
 		print("KEY: ",s)
