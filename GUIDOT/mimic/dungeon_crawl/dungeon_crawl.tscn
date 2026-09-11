@@ -413,7 +413,6 @@ Links = {
 }
 
 [node name="NavigationHUDZone" type="ReferenceRect" parent="NavigationBounds" unique_id=1206054214]
-visible = false
 custom_minimum_size = Vector2(600, 400)
 layout_mode = 1
 anchors_preset = 15
@@ -473,6 +472,15 @@ grow_vertical = 2
 border_color = Color(1, 1, 0, 1)
 border_width = 2.0
 metadata/_edit_lock_ = true
+
+[node name="IntroBG" type="ColorRect" parent="NavigationBounds/IntroZone" unique_id=663988289]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.3491902, 0.3491902, 0, 1)
 
 [node name="BtDismiss" parent="NavigationBounds/IntroZone" unique_id=1510347416 instance=ExtResource("2_ggcpa")]
 layout_mode = 0

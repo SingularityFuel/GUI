@@ -182,8 +182,6 @@ func PopulateStates() -> void:
 	)
 	AddState(
 		"Navigation-Intro",
-		NavDungeonBG,
-		NavDungeonBase,
 		NavDungeonIntro,
 	)
 	AddState(
