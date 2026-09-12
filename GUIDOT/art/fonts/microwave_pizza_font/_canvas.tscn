@@ -1,0 +1,2265 @@
+[gd_scene format=3 uid="uid://bu5n0ep72m2ju"]
+
+[ext_resource type="PackedScene" uid="uid://b2hrpui3k3fl2" path="res://art/fonts/microwave_pizza_font/letter_a_1.tscn" id="1_myuqx"]
+[ext_resource type="PackedScene" uid="uid://vdgsxglagtpn" path="res://art/fonts/microwave_pizza_font/letter_b_1.tscn" id="2_kbfng"]
+[ext_resource type="PackedScene" uid="uid://cwkqcfcojt47" path="res://art/fonts/microwave_pizza_font/letter_c_1.tscn" id="3_fcdjn"]
+[ext_resource type="PackedScene" uid="uid://bsnwpxepelxvx" path="res://art/fonts/microwave_pizza_font/letter_d_1.tscn" id="4_mclu4"]
+[ext_resource type="PackedScene" uid="uid://c6l1ulw2gwjj5" path="res://art/fonts/microwave_pizza_font/letter_e_1.tscn" id="5_kbfng"]
+[ext_resource type="PackedScene" uid="uid://mwji27005fpo" path="res://art/fonts/microwave_pizza_font/letter_f_1.tscn" id="6_fcdjn"]
+[ext_resource type="PackedScene" uid="uid://damfvundptkbs" path="res://art/fonts/microwave_pizza_font/letter_g_1.tscn" id="7_mclu4"]
+[ext_resource type="PackedScene" uid="uid://b4rvfa2dpbhyg" path="res://art/fonts/microwave_pizza_font/letter_h_1.tscn" id="8_gb870"]
+[ext_resource type="PackedScene" uid="uid://bjbdllmuh6h4o" path="res://art/fonts/microwave_pizza_font/letter_i_1.tscn" id="9_5mpal"]
+[ext_resource type="PackedScene" uid="uid://darh8wywmsovs" path="res://art/fonts/microwave_pizza_font/letter_j_1.tscn" id="10_yt0yx"]
+[ext_resource type="PackedScene" uid="uid://30om1eo32kkm" path="res://art/fonts/microwave_pizza_font/letter_k_1.tscn" id="11_bd4ep"]
+[ext_resource type="PackedScene" uid="uid://b77q2k1pb4ndq" path="res://art/fonts/microwave_pizza_font/letter_l_1.tscn" id="12_dp0vl"]
+[ext_resource type="PackedScene" uid="uid://f8gmol3ubwpw" path="res://art/fonts/microwave_pizza_font/letter_m_1.tscn" id="13_dp0vl"]
+[ext_resource type="PackedScene" uid="uid://b6ysl0k8v0nya" path="res://art/fonts/microwave_pizza_font/letter_n_1.tscn" id="14_02dhi"]
+[ext_resource type="PackedScene" uid="uid://0ilekwyjl1by" path="res://art/fonts/microwave_pizza_font/letter_o_1.tscn" id="15_jusjv"]
+[ext_resource type="PackedScene" uid="uid://t4h4a7xwb0w4" path="res://art/fonts/microwave_pizza_font/letter_p_1.tscn" id="16_ef6yg"]
+[ext_resource type="PackedScene" uid="uid://bwpqf01y1dvlx" path="res://art/fonts/microwave_pizza_font/letter_q_1.tscn" id="17_ef6yg"]
+[ext_resource type="PackedScene" uid="uid://c866trx5iap0q" path="res://art/fonts/microwave_pizza_font/letter_r_1.tscn" id="18_lkr6u"]
+[ext_resource type="PackedScene" uid="uid://bu06cvhh0lky2" path="res://art/fonts/microwave_pizza_font/letter_s_1.tscn" id="19_mcte4"]
+[ext_resource type="PackedScene" uid="uid://bx5o05hk5bi11" path="res://art/fonts/microwave_pizza_font/letter_t_1.tscn" id="20_no7gr"]
+[ext_resource type="PackedScene" uid="uid://cot08c8rbv2ar" path="res://art/fonts/microwave_pizza_font/letter_u_1.tscn" id="21_4kv4k"]
+[ext_resource type="PackedScene" uid="uid://cpf1x3vthy03v" path="res://art/fonts/microwave_pizza_font/letter_v_1.tscn" id="22_ci1km"]
+[ext_resource type="PackedScene" uid="uid://vxsefeya86eh" path="res://art/fonts/microwave_pizza_font/letter_w_1.tscn" id="23_jkwxf"]
+[ext_resource type="PackedScene" uid="uid://d22gngpu32k6l" path="res://art/fonts/microwave_pizza_font/letter_x_1.tscn" id="24_jkwxf"]
+[ext_resource type="PackedScene" uid="uid://b7e03tpgj46s7" path="res://art/fonts/microwave_pizza_font/letter_y_1.tscn" id="25_oagl3"]
+[ext_resource type="PackedScene" uid="uid://bt2y1rh3bv5qa" path="res://art/fonts/microwave_pizza_font/letter_z_1.tscn" id="26_v1853"]
+[ext_resource type="PackedScene" uid="uid://c3ysiya17kv10" path="res://art/fonts/microwave_pizza_font/number_1_a.tscn" id="27_v1853"]
+[ext_resource type="PackedScene" uid="uid://dua5v1cugqdmy" path="res://art/fonts/microwave_pizza_font/number_2_a.tscn" id="28_u03xo"]
+[ext_resource type="PackedScene" uid="uid://b6abrfamglowm" path="res://art/fonts/microwave_pizza_font/number_3_a.tscn" id="29_3ohgy"]
+[ext_resource type="PackedScene" uid="uid://6diyl0vhbvw5" path="res://art/fonts/microwave_pizza_font/number_4_a.tscn" id="30_3ohgy"]
+[ext_resource type="PackedScene" uid="uid://bkd27rxu8fqc1" path="res://art/fonts/microwave_pizza_font/number_5_a.tscn" id="31_4k8id"]
+[ext_resource type="PackedScene" uid="uid://dklt01wh1msg6" path="res://art/fonts/microwave_pizza_font/number_6_a.tscn" id="32_qkog2"]
+[ext_resource type="PackedScene" uid="uid://c51r6q4qdlknq" path="res://art/fonts/microwave_pizza_font/number_7_a.tscn" id="33_wkhln"]
+[ext_resource type="PackedScene" uid="uid://by6bfnpxoidca" path="res://art/fonts/microwave_pizza_font/number_8_a.tscn" id="34_2us64"]
+[ext_resource type="PackedScene" uid="uid://c771t6nbusovi" path="res://art/fonts/microwave_pizza_font/number_9_a.tscn" id="35_t402h"]
+[ext_resource type="PackedScene" uid="uid://jrudetkgjwg" path="res://art/fonts/microwave_pizza_font/number_0_a.tscn" id="36_1quhy"]
+
+[node name="Canvas" type="ColorRect" unique_id=1962313567]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="oneline-button" type="Node2D" parent="." unique_id=1000954329]
+metadata/_edit_lock_ = true
+
+[node name="bg-01-g" type="Polygon2D" parent="oneline-button" unique_id=207876486]
+color = Color(0, 0.34901962, 0, 1)
+polygon = PackedVector2Array(0, 0, 300, 0, 300, 100, 0, 100)
+uv = PackedVector2Array(-190, -110, 70, -110, 70, -30, -190, -30)
+metadata/_edit_lock_ = true
+
+[node name="bo-01-10-g" type="Polygon2D" parent="oneline-button" unique_id=684908415]
+polygon = PackedVector2Array(0, 2.861023e-06, 0, 100.000015, 10, 90.000015, 10, 10.000007, 290, 10, 290, 90, 10, 90.000015, 0, 100.000015, 300, 100, 300, 0)
+uv = PackedVector2Array(-130, 10, -130, 110.000015, -120, 100.000015, -120, 20.000004, 60, 20.000004, 60, 100.000015, -120, 100.000015, -130, 110.000015, 70, 110.000015, 70, 10)
+vertex_colors = PackedColorArray(0, 0.3491902, 0, 1, 0, 0.3491902, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0.3491902, 0, 1, 0, 0.3491902, 0, 1, 0, 0.3491902, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="letter1" type="Node2D" parent="oneline-button" unique_id=95786658]
+position = Vector2(35, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter1" unique_id=1606279045]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/rimN" unique_id=1678824387]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter1" unique_id=2040854092]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/rimNE" unique_id=1126157440]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter1" unique_id=1795714117]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/rimSE" unique_id=56309451]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter1" unique_id=111226048]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/rimS" unique_id=1674379286]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter1" unique_id=1084919993]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/rimSW" unique_id=2072031457]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter1" unique_id=78184568]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/rimNW" unique_id=816078651]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter1" unique_id=69456581]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/spokeE" unique_id=101534188]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter1" unique_id=1932113680]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/spokeSE" unique_id=1818364035]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter1" unique_id=1373401578]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/spokeSW" unique_id=884804079]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter1" unique_id=401887247]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/spokeW" unique_id=1045227805]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter1" unique_id=1171893079]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/spokeNW" unique_id=945609032]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter1" unique_id=1461185858]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter1/spokeNE" unique_id=1084640929]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter2" type="Node2D" parent="oneline-button" unique_id=1473711682]
+position = Vector2(65, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter2" unique_id=1091006414]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/rimN" unique_id=2135649919]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter2" unique_id=249396996]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/rimNE" unique_id=154091560]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter2" unique_id=796424886]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/rimSE" unique_id=330141728]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter2" unique_id=1943304302]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/rimS" unique_id=1362399149]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter2" unique_id=900123453]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/rimSW" unique_id=662082786]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter2" unique_id=2032040082]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/rimNW" unique_id=1857922109]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter2" unique_id=251743089]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/spokeE" unique_id=91511851]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter2" unique_id=456298423]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/spokeSE" unique_id=1878351786]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter2" unique_id=974587424]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/spokeSW" unique_id=1682096256]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter2" unique_id=1502296293]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/spokeW" unique_id=1166549483]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter2" unique_id=1503020217]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/spokeNW" unique_id=1782480827]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter2" unique_id=398509865]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter2/spokeNE" unique_id=1948949821]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter3" type="Node2D" parent="oneline-button" unique_id=1636599171]
+position = Vector2(95, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter3" unique_id=218998128]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/rimN" unique_id=1939574174]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter3" unique_id=624213611]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/rimNE" unique_id=1989764234]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter3" unique_id=1612547198]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/rimSE" unique_id=1087239097]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter3" unique_id=1945050356]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/rimS" unique_id=1111987219]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter3" unique_id=833281603]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/rimSW" unique_id=1244358791]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter3" unique_id=1959323784]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/rimNW" unique_id=35275346]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter3" unique_id=436283038]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/spokeE" unique_id=1250614157]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter3" unique_id=833968892]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/spokeSE" unique_id=520114608]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter3" unique_id=982282524]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/spokeSW" unique_id=1972988977]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter3" unique_id=1371427012]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/spokeW" unique_id=1532541769]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter3" unique_id=1486365385]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/spokeNW" unique_id=1657632873]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter3" unique_id=1473058691]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter3/spokeNE" unique_id=331319834]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter4" type="Node2D" parent="oneline-button" unique_id=91843406]
+position = Vector2(125, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter4" unique_id=413501572]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/rimN" unique_id=1985336612]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter4" unique_id=1029855597]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/rimNE" unique_id=280773184]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter4" unique_id=1390231040]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/rimSE" unique_id=1876582827]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter4" unique_id=1569514604]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/rimS" unique_id=1273254577]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter4" unique_id=1600611637]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/rimSW" unique_id=1849943085]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter4" unique_id=1971262735]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/rimNW" unique_id=980670567]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter4" unique_id=277024748]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/spokeE" unique_id=1717654044]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter4" unique_id=422727462]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/spokeSE" unique_id=341144461]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter4" unique_id=726415417]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/spokeSW" unique_id=632634826]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter4" unique_id=424818596]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/spokeW" unique_id=1448252252]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter4" unique_id=2008125720]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/spokeNW" unique_id=300203587]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter4" unique_id=1735426378]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter4/spokeNE" unique_id=519760238]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter5" type="Node2D" parent="oneline-button" unique_id=543858508]
+position = Vector2(155, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter5" unique_id=696364287]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/rimN" unique_id=505952700]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter5" unique_id=1254194850]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/rimNE" unique_id=2131678001]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter5" unique_id=527585423]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/rimSE" unique_id=484877045]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter5" unique_id=162316990]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/rimS" unique_id=1088949412]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter5" unique_id=1467507590]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/rimSW" unique_id=803075392]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter5" unique_id=94463457]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/rimNW" unique_id=253647766]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter5" unique_id=2052977728]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/spokeE" unique_id=1994179150]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter5" unique_id=231750928]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/spokeSE" unique_id=337110549]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter5" unique_id=363607324]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/spokeSW" unique_id=2038904145]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter5" unique_id=1840369343]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/spokeW" unique_id=1991979421]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter5" unique_id=1353280077]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/spokeNW" unique_id=1141206257]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter5" unique_id=681448465]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter5/spokeNE" unique_id=394055640]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter6" type="Node2D" parent="oneline-button" unique_id=1758403028]
+position = Vector2(185, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter6" unique_id=361410676]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/rimN" unique_id=1694283574]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter6" unique_id=1197498869]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/rimNE" unique_id=1947105370]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter6" unique_id=1823064516]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/rimSE" unique_id=1328339922]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter6" unique_id=237578250]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/rimS" unique_id=816753367]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter6" unique_id=12047799]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/rimSW" unique_id=956990796]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter6" unique_id=439197870]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/rimNW" unique_id=666647270]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter6" unique_id=1884760188]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/spokeE" unique_id=521497859]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter6" unique_id=1310924662]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/spokeSE" unique_id=540166701]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter6" unique_id=1166922111]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/spokeSW" unique_id=1099065125]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter6" unique_id=1446299197]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/spokeW" unique_id=205519664]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter6" unique_id=283149981]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/spokeNW" unique_id=2006824547]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter6" unique_id=1360603499]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter6/spokeNE" unique_id=2108054997]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter7" type="Node2D" parent="oneline-button" unique_id=779803443]
+position = Vector2(215, 50)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="oneline-button/letter7" unique_id=654951043]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/rimN" unique_id=704833040]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="oneline-button/letter7" unique_id=1910079836]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/rimNE" unique_id=1019091850]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="oneline-button/letter7" unique_id=2019644440]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/rimSE" unique_id=369293188]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="oneline-button/letter7" unique_id=1008812397]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/rimS" unique_id=1568221309]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="oneline-button/letter7" unique_id=1558722684]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/rimSW" unique_id=116085973]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="oneline-button/letter7" unique_id=806304389]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/rimNW" unique_id=1092451374]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="oneline-button/letter7" unique_id=1349939553]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/spokeE" unique_id=1081487781]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="oneline-button/letter7" unique_id=561337361]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/spokeSE" unique_id=293181832]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="oneline-button/letter7" unique_id=1593965076]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/spokeSW" unique_id=1347271184]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="oneline-button/letter7" unique_id=1073401955]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/spokeW" unique_id=445655179]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="oneline-button/letter7" unique_id=1148259682]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/spokeNW" unique_id=1705318934]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="oneline-button/letter7" unique_id=967174480]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="oneline-button/letter7/spokeNE" unique_id=135556127]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="number" type="Node2D" parent="oneline-button" unique_id=2130570417]
+position = Vector2(255, 50)
+metadata/_edit_lock_ = true
+
+[node name="h1" type="Node2D" parent="oneline-button/number" unique_id=707443354]
+position = Vector2(0, -22)
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/h1" unique_id=1313112125]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h2" type="Node2D" parent="oneline-button/number" unique_id=709474030]
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/h2" unique_id=704927891]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h3" type="Node2D" parent="oneline-button/number" unique_id=1061937740]
+position = Vector2(0, 22)
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/h3" unique_id=1358422299]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v1" type="Node2D" parent="oneline-button/number" unique_id=1002212480]
+position = Vector2(-11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/v1" unique_id=1247324442]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v2" type="Node2D" parent="oneline-button/number" unique_id=2030223819]
+position = Vector2(11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/v2" unique_id=799967396]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v3" type="Node2D" parent="oneline-button/number" unique_id=872649301]
+position = Vector2(-11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/v3" unique_id=1982792996]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v4" type="Node2D" parent="oneline-button/number" unique_id=1847712613]
+position = Vector2(11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="oneline-button/number/v4" unique_id=436963599]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="twoline-button" type="Node2D" parent="." unique_id=1161174368]
+position = Vector2(0, -125)
+metadata/_edit_lock_ = true
+
+[node name="bg-01-b" type="Polygon2D" parent="twoline-button" unique_id=345061939]
+color = Color(0, 0, 0.3491902, 1)
+polygon = PackedVector2Array(0, 0, 300, 0, 300, 100, 0, 100)
+uv = PackedVector2Array(-190, -110, 70, -110, 70, -30, -190, -30)
+metadata/_edit_lock_ = true
+
+[node name="bo-01-10-b" type="Polygon2D" parent="twoline-button" unique_id=1001597641]
+polygon = PackedVector2Array(0, 2.861023e-06, 0, 100.000015, 10, 90.000015, 10, 10.000007, 290, 10, 290, 90, 10, 90.000015, 0, 100.000015, 300, 100, 300, 0)
+uv = PackedVector2Array(-130, 10, -130, 110.000015, -120, 100.000015, -120, 20.000004, 60, 20.000004, 60, 100.000015, -120, 100.000015, -130, 110.000015, 70, 110.000015, 70, 10)
+vertex_colors = PackedColorArray(0, 0, 0.34901962, 1, 0, 0, 0.34901962, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0.34901962, 1, 0, 0, 0.34901962, 1, 0, 0, 0.34901962, 1)
+metadata/_edit_lock_ = true
+
+[node name="letter1" type="Node2D" parent="twoline-button" unique_id=1885069841]
+position = Vector2(35, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter1" unique_id=792800988]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/rimN" unique_id=427420997]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter1" unique_id=1741353032]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/rimNE" unique_id=1920877223]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter1" unique_id=27776061]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/rimSE" unique_id=2022267476]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter1" unique_id=1830226146]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/rimS" unique_id=333002574]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter1" unique_id=623728569]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/rimSW" unique_id=266176948]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter1" unique_id=1252385312]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/rimNW" unique_id=1206601822]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter1" unique_id=540244425]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/spokeE" unique_id=1017599950]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter1" unique_id=1808355244]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/spokeSE" unique_id=21428088]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter1" unique_id=607056115]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/spokeSW" unique_id=1852291010]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter1" unique_id=737554252]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/spokeW" unique_id=1965061234]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter1" unique_id=1729528885]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/spokeNW" unique_id=2063620151]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter1" unique_id=1792491139]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter1/spokeNE" unique_id=373355575]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter2" type="Node2D" parent="twoline-button" unique_id=534589720]
+position = Vector2(65, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter2" unique_id=1946174739]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/rimN" unique_id=1052789766]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter2" unique_id=790773214]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/rimNE" unique_id=479121028]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter2" unique_id=1147492611]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/rimSE" unique_id=840429791]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter2" unique_id=618764146]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/rimS" unique_id=2082694031]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter2" unique_id=1378699743]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/rimSW" unique_id=74174277]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter2" unique_id=1225952561]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/rimNW" unique_id=1597561912]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter2" unique_id=1771524575]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/spokeE" unique_id=160933410]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter2" unique_id=202343618]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/spokeSE" unique_id=325216018]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter2" unique_id=1842340382]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/spokeSW" unique_id=295684593]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter2" unique_id=1538750167]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/spokeW" unique_id=1126909865]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter2" unique_id=1729712065]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/spokeNW" unique_id=1781342466]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter2" unique_id=539097250]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter2/spokeNE" unique_id=38923951]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter3" type="Node2D" parent="twoline-button" unique_id=1902835595]
+position = Vector2(95, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter3" unique_id=468691060]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/rimN" unique_id=1518481632]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter3" unique_id=1497421504]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/rimNE" unique_id=166099358]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter3" unique_id=1776786549]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/rimSE" unique_id=528118959]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter3" unique_id=1360182744]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/rimS" unique_id=1921394646]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter3" unique_id=434247819]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/rimSW" unique_id=1105836854]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter3" unique_id=208871736]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/rimNW" unique_id=5655150]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter3" unique_id=1902550246]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/spokeE" unique_id=808937970]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter3" unique_id=733373498]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/spokeSE" unique_id=317416556]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter3" unique_id=846361834]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/spokeSW" unique_id=814757617]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter3" unique_id=1222015888]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/spokeW" unique_id=796084282]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter3" unique_id=1346375825]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/spokeNW" unique_id=1847496096]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter3" unique_id=395558694]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter3/spokeNE" unique_id=772005191]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter4" type="Node2D" parent="twoline-button" unique_id=1889836714]
+position = Vector2(125, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter4" unique_id=1094271871]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/rimN" unique_id=1206667126]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter4" unique_id=1724895406]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/rimNE" unique_id=194967552]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter4" unique_id=19448983]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/rimSE" unique_id=934065898]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter4" unique_id=950386833]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/rimS" unique_id=327829814]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter4" unique_id=1671335684]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/rimSW" unique_id=1693523334]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter4" unique_id=215816261]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/rimNW" unique_id=470384438]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter4" unique_id=72688121]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/spokeE" unique_id=584260886]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter4" unique_id=187980511]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/spokeSE" unique_id=661004842]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter4" unique_id=1565981141]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/spokeSW" unique_id=279082988]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter4" unique_id=244410439]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/spokeW" unique_id=66238081]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter4" unique_id=909750746]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/spokeNW" unique_id=1735082873]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter4" unique_id=1628810859]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter4/spokeNE" unique_id=586450240]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter5" type="Node2D" parent="twoline-button" unique_id=70741476]
+position = Vector2(155, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter5" unique_id=90336496]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/rimN" unique_id=1790876155]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter5" unique_id=1853914961]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/rimNE" unique_id=606974140]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter5" unique_id=1392973628]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/rimSE" unique_id=237068977]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter5" unique_id=3213385]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/rimS" unique_id=118726696]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter5" unique_id=1850573267]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/rimSW" unique_id=277304965]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter5" unique_id=742408077]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/rimNW" unique_id=959273682]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter5" unique_id=184689531]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/spokeE" unique_id=1320378651]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter5" unique_id=140297534]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/spokeSE" unique_id=1963095066]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter5" unique_id=458446302]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/spokeSW" unique_id=1151813982]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter5" unique_id=1507094602]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/spokeW" unique_id=1135666979]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter5" unique_id=1196145674]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/spokeNW" unique_id=2065204970]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter5" unique_id=849700500]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter5/spokeNE" unique_id=928585365]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter6" type="Node2D" parent="twoline-button" unique_id=536072094]
+position = Vector2(185, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter6" unique_id=699095640]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/rimN" unique_id=1466999928]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter6" unique_id=1749027972]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/rimNE" unique_id=230193270]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter6" unique_id=931608185]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/rimSE" unique_id=1913362105]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter6" unique_id=327216530]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/rimS" unique_id=284870016]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter6" unique_id=1854768034]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/rimSW" unique_id=867494922]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter6" unique_id=486327935]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/rimNW" unique_id=1821337228]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter6" unique_id=1761578112]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/spokeE" unique_id=81295164]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter6" unique_id=1277232627]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/spokeSE" unique_id=461162070]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter6" unique_id=246040253]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/spokeSW" unique_id=966036199]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter6" unique_id=235582635]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/spokeW" unique_id=641898833]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter6" unique_id=379644322]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/spokeNW" unique_id=1202463602]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter6" unique_id=911934863]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter6/spokeNE" unique_id=36304923]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter7" type="Node2D" parent="twoline-button" unique_id=1302383011]
+position = Vector2(215, 35)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter7" unique_id=1830189606]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/rimN" unique_id=1128310620]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter7" unique_id=470985663]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/rimNE" unique_id=1478380804]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter7" unique_id=164467543]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/rimSE" unique_id=679611665]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter7" unique_id=1357542148]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/rimS" unique_id=723549797]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter7" unique_id=1600142159]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/rimSW" unique_id=1455114471]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter7" unique_id=1898284212]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/rimNW" unique_id=1044048173]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter7" unique_id=323909168]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/spokeE" unique_id=1104241271]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter7" unique_id=209105789]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/spokeSE" unique_id=697275185]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter7" unique_id=111890223]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/spokeSW" unique_id=1161786239]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter7" unique_id=615894820]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/spokeW" unique_id=282184252]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter7" unique_id=667302168]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/spokeNW" unique_id=1325424108]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter7" unique_id=658313202]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter7/spokeNE" unique_id=538143891]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter8" type="Node2D" parent="twoline-button" unique_id=1860674960]
+position = Vector2(35, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter8" unique_id=1024416760]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/rimN" unique_id=360365101]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter8" unique_id=1208691383]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/rimNE" unique_id=2096421944]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter8" unique_id=541115702]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/rimSE" unique_id=907842433]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter8" unique_id=2045013729]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/rimS" unique_id=395836511]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter8" unique_id=479686891]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/rimSW" unique_id=1724133592]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter8" unique_id=1219338150]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/rimNW" unique_id=675400197]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter8" unique_id=1225866209]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/spokeE" unique_id=685225941]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter8" unique_id=1852879345]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/spokeSE" unique_id=1741770339]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter8" unique_id=394211207]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/spokeSW" unique_id=71510369]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter8" unique_id=844352914]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/spokeW" unique_id=511972886]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter8" unique_id=1655364581]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/spokeNW" unique_id=541626063]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter8" unique_id=53780945]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter8/spokeNE" unique_id=584321771]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter9" type="Node2D" parent="twoline-button" unique_id=1343026160]
+position = Vector2(65, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter9" unique_id=387339054]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/rimN" unique_id=9609781]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter9" unique_id=74364094]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/rimNE" unique_id=2071254765]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter9" unique_id=1593748746]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/rimSE" unique_id=40232080]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter9" unique_id=558011822]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/rimS" unique_id=127529508]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter9" unique_id=334743584]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/rimSW" unique_id=1803475870]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter9" unique_id=255772799]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/rimNW" unique_id=372066432]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter9" unique_id=438702466]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/spokeE" unique_id=709690971]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter9" unique_id=1234082532]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/spokeSE" unique_id=956030359]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter9" unique_id=1524717147]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/spokeSW" unique_id=1735906441]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter9" unique_id=1795305247]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/spokeW" unique_id=730824657]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter9" unique_id=502663389]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/spokeNW" unique_id=1460864853]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter9" unique_id=426989284]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter9/spokeNE" unique_id=1296530910]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter10" type="Node2D" parent="twoline-button" unique_id=601982549]
+position = Vector2(95, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter10" unique_id=1826083165]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/rimN" unique_id=1354209919]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter10" unique_id=1188386977]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/rimNE" unique_id=1835082951]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter10" unique_id=2067597042]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/rimSE" unique_id=2013933602]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter10" unique_id=1222333273]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/rimS" unique_id=1158529542]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter10" unique_id=63176262]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/rimSW" unique_id=1727121477]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter10" unique_id=1717587688]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/rimNW" unique_id=496775715]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter10" unique_id=698620292]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/spokeE" unique_id=144076250]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter10" unique_id=1347429803]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/spokeSE" unique_id=1374387895]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter10" unique_id=204018615]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/spokeSW" unique_id=1100704530]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter10" unique_id=256021028]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/spokeW" unique_id=1921373756]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter10" unique_id=1826712087]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/spokeNW" unique_id=1114833550]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter10" unique_id=748035181]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter10/spokeNE" unique_id=151966561]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter11" type="Node2D" parent="twoline-button" unique_id=1705792764]
+position = Vector2(125, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter11" unique_id=811077660]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/rimN" unique_id=1300812944]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter11" unique_id=423571718]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/rimNE" unique_id=950366165]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter11" unique_id=2119352896]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/rimSE" unique_id=1346479929]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter11" unique_id=1581512582]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/rimS" unique_id=152023945]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter11" unique_id=251622411]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/rimSW" unique_id=872562078]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter11" unique_id=1942940092]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/rimNW" unique_id=1098800918]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter11" unique_id=66030405]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/spokeE" unique_id=1942452577]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter11" unique_id=1367736796]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/spokeSE" unique_id=241203039]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter11" unique_id=1177092826]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/spokeSW" unique_id=1115192232]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter11" unique_id=539457982]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/spokeW" unique_id=130301826]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter11" unique_id=982985847]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/spokeNW" unique_id=1630175419]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter11" unique_id=777435107]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter11/spokeNE" unique_id=1611552874]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter12" type="Node2D" parent="twoline-button" unique_id=1240394292]
+position = Vector2(155, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter12" unique_id=455366393]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/rimN" unique_id=887813165]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter12" unique_id=1515557131]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/rimNE" unique_id=1045282875]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter12" unique_id=1058606467]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/rimSE" unique_id=287726401]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter12" unique_id=332651210]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/rimS" unique_id=281412409]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter12" unique_id=1685204628]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/rimSW" unique_id=345575889]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter12" unique_id=2077204656]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/rimNW" unique_id=444987067]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter12" unique_id=1917832910]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/spokeE" unique_id=1110497155]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter12" unique_id=1350468187]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/spokeSE" unique_id=2022286093]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter12" unique_id=922595712]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/spokeSW" unique_id=443031352]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter12" unique_id=1003117689]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/spokeW" unique_id=1401750178]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter12" unique_id=1746944445]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/spokeNW" unique_id=1107226517]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter12" unique_id=1153518227]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter12/spokeNE" unique_id=1461584600]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter13" type="Node2D" parent="twoline-button" unique_id=1999630628]
+position = Vector2(185, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter13" unique_id=1344670358]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/rimN" unique_id=194796000]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter13" unique_id=134324497]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/rimNE" unique_id=1063325799]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter13" unique_id=1690163076]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/rimSE" unique_id=1330277851]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter13" unique_id=1256721826]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/rimS" unique_id=1972895012]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter13" unique_id=623266345]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/rimSW" unique_id=172597945]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter13" unique_id=1775910362]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/rimNW" unique_id=1236988601]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter13" unique_id=1351722502]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/spokeE" unique_id=1472860592]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter13" unique_id=1299291400]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/spokeSE" unique_id=1666859531]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter13" unique_id=1694922799]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/spokeSW" unique_id=1723625179]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter13" unique_id=921451396]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/spokeW" unique_id=709009378]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter13" unique_id=1388215109]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/spokeNW" unique_id=759020884]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter13" unique_id=1303691521]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter13/spokeNE" unique_id=1542078438]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter14" type="Node2D" parent="twoline-button" unique_id=1755399106]
+position = Vector2(215, 65)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="twoline-button/letter14" unique_id=1586206517]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/rimN" unique_id=1663840624]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="twoline-button/letter14" unique_id=237051419]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/rimNE" unique_id=1413810932]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="twoline-button/letter14" unique_id=1959421272]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/rimSE" unique_id=789106218]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="twoline-button/letter14" unique_id=2106974406]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/rimS" unique_id=1549335463]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="twoline-button/letter14" unique_id=716277535]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/rimSW" unique_id=82631553]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="twoline-button/letter14" unique_id=1303749101]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/rimNW" unique_id=1782865425]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="twoline-button/letter14" unique_id=1030155981]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/spokeE" unique_id=610371924]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="twoline-button/letter14" unique_id=2067658491]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/spokeSE" unique_id=1143617589]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="twoline-button/letter14" unique_id=1302749398]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/spokeSW" unique_id=960685676]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="twoline-button/letter14" unique_id=1736809178]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/spokeW" unique_id=1287064610]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="twoline-button/letter14" unique_id=1539643742]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/spokeNW" unique_id=48299064]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="twoline-button/letter14" unique_id=275030590]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="twoline-button/letter14/spokeNE" unique_id=1427181985]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="number" type="Node2D" parent="twoline-button" unique_id=803530266]
+position = Vector2(255, 50)
+metadata/_edit_lock_ = true
+
+[node name="h1" type="Node2D" parent="twoline-button/number" unique_id=301007039]
+position = Vector2(0, -22)
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/h1" unique_id=1643251892]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h2" type="Node2D" parent="twoline-button/number" unique_id=1113621934]
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/h2" unique_id=793873302]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h3" type="Node2D" parent="twoline-button/number" unique_id=1523571374]
+position = Vector2(0, 22)
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/h3" unique_id=686480965]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v1" type="Node2D" parent="twoline-button/number" unique_id=1405770526]
+position = Vector2(-11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/v1" unique_id=238821810]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v2" type="Node2D" parent="twoline-button/number" unique_id=707188200]
+position = Vector2(11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/v2" unique_id=1025823028]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v3" type="Node2D" parent="twoline-button/number" unique_id=1291440508]
+position = Vector2(-11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/v3" unique_id=845683300]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v4" type="Node2D" parent="twoline-button/number" unique_id=1453163856]
+position = Vector2(11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="twoline-button/number/v4" unique_id=1100188335]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letter" type="Node2D" parent="." unique_id=1248868492]
+position = Vector2(-15, 125)
+metadata/_edit_lock_ = true
+
+[node name="rimN" type="Node2D" parent="letter" unique_id=337467870]
+
+[node name="poly" type="Polygon2D" parent="letter/rimN" unique_id=459340556]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="letter" unique_id=269263459]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="letter/rimNE" unique_id=50361780]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="letter" unique_id=433939181]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="letter/rimSE" unique_id=1130146448]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="letter" unique_id=624370350]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="letter/rimS" unique_id=2029997478]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="letter" unique_id=1943597485]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="letter/rimSW" unique_id=981229514]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="letter" unique_id=1150207746]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="letter/rimNW" unique_id=1325383093]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="letter" unique_id=1246646517]
+
+[node name="poly" type="Polygon2D" parent="letter/spokeE" unique_id=1851768537]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="letter" unique_id=1462253520]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="letter/spokeSE" unique_id=555069472]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="letter" unique_id=205448847]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="letter/spokeSW" unique_id=362649281]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="letter" unique_id=539339373]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="letter/spokeW" unique_id=2137314395]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="letter" unique_id=1266923621]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="letter/spokeNW" unique_id=1009600659]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="letter" unique_id=1993129230]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="letter/spokeNE" unique_id=436381589]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="number" type="Node2D" parent="." unique_id=1422604143]
+position = Vector2(-20, 340)
+metadata/_edit_lock_ = true
+
+[node name="h1" type="Node2D" parent="number" unique_id=1963059658]
+position = Vector2(0, -22)
+
+[node name="poly" type="Polygon2D" parent="number/h1" unique_id=1617801345]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h2" type="Node2D" parent="number" unique_id=1284247113]
+
+[node name="poly" type="Polygon2D" parent="number/h2" unique_id=1060943860]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h3" type="Node2D" parent="number" unique_id=1579240228]
+position = Vector2(0, 22)
+
+[node name="poly" type="Polygon2D" parent="number/h3" unique_id=248955621]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v1" type="Node2D" parent="number" unique_id=2053224058]
+position = Vector2(-11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="number/v1" unique_id=285153656]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v2" type="Node2D" parent="number" unique_id=1357897701]
+position = Vector2(11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="number/v2" unique_id=859655239]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v3" type="Node2D" parent="number" unique_id=1009618502]
+position = Vector2(-11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="number/v3" unique_id=148604898]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v4" type="Node2D" parent="number" unique_id=874506672]
+position = Vector2(11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="number/v4" unique_id=25975892]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="letterA1" parent="." unique_id=1668484202 instance=ExtResource("1_myuqx")]
+position = Vector2(35, 125)
+
+[node name="letterB1" parent="." unique_id=376150708 instance=ExtResource("2_kbfng")]
+position = Vector2(65, 125)
+
+[node name="letterC1" parent="." unique_id=803880219 instance=ExtResource("3_fcdjn")]
+position = Vector2(95, 125)
+
+[node name="letterD1" parent="." unique_id=116528629 instance=ExtResource("4_mclu4")]
+position = Vector2(125, 125)
+
+[node name="letterE1" parent="." unique_id=627136020 instance=ExtResource("5_kbfng")]
+position = Vector2(155, 125)
+
+[node name="letterF1" parent="." unique_id=581518764 instance=ExtResource("6_fcdjn")]
+position = Vector2(185, 125)
+
+[node name="letterG1" parent="." unique_id=707986684 instance=ExtResource("7_mclu4")]
+position = Vector2(215, 125)
+
+[node name="letterH1" parent="." unique_id=2092696731 instance=ExtResource("8_gb870")]
+position = Vector2(35, 155)
+
+[node name="letterI1" parent="." unique_id=1133527528 instance=ExtResource("9_5mpal")]
+position = Vector2(65, 155)
+
+[node name="letterJ1" parent="." unique_id=550893308 instance=ExtResource("10_yt0yx")]
+position = Vector2(95, 155)
+
+[node name="letterK1" parent="." unique_id=507751279 instance=ExtResource("11_bd4ep")]
+position = Vector2(125, 155)
+
+[node name="letterL1" parent="." unique_id=1033336747 instance=ExtResource("12_dp0vl")]
+position = Vector2(155, 155)
+
+[node name="letterM1" parent="." unique_id=1736347810 instance=ExtResource("13_dp0vl")]
+position = Vector2(185, 155)
+
+[node name="letterN1" parent="." unique_id=296707566 instance=ExtResource("14_02dhi")]
+position = Vector2(215, 155)
+
+[node name="letterO1" parent="." unique_id=1078868400 instance=ExtResource("15_jusjv")]
+position = Vector2(35, 185)
+
+[node name="letterP1" parent="." unique_id=1252104487 instance=ExtResource("16_ef6yg")]
+position = Vector2(65, 185)
+
+[node name="letterQ1" parent="." unique_id=184172663 instance=ExtResource("17_ef6yg")]
+position = Vector2(95, 185)
+
+[node name="letterR1" parent="." unique_id=1156538116 instance=ExtResource("18_lkr6u")]
+position = Vector2(125, 185)
+
+[node name="letterS1" parent="." unique_id=710903276 instance=ExtResource("19_mcte4")]
+position = Vector2(155, 185)
+
+[node name="letterT1" parent="." unique_id=1199117811 instance=ExtResource("20_no7gr")]
+position = Vector2(185, 185)
+
+[node name="letterU1" parent="." unique_id=1201053744 instance=ExtResource("21_4kv4k")]
+position = Vector2(215, 185)
+
+[node name="letterV1" parent="." unique_id=1876611027 instance=ExtResource("22_ci1km")]
+position = Vector2(35, 215)
+
+[node name="letterW1" parent="." unique_id=1072337844 instance=ExtResource("23_jkwxf")]
+position = Vector2(65, 215)
+
+[node name="letterX1" parent="." unique_id=830681501 instance=ExtResource("24_jkwxf")]
+position = Vector2(95, 215)
+
+[node name="letterY1" parent="." unique_id=6238026 instance=ExtResource("25_oagl3")]
+position = Vector2(125, 215)
+
+[node name="letterZ1" parent="." unique_id=1324440887 instance=ExtResource("26_v1853")]
+position = Vector2(155, 215)
+
+[node name="number1A" parent="." unique_id=193030336 instance=ExtResource("27_v1853")]
+position = Vector2(30, 280)
+
+[node name="number2A" parent="." unique_id=996825224 instance=ExtResource("28_u03xo")]
+position = Vector2(70, 280)
+
+[node name="number3A" parent="." unique_id=1807055425 instance=ExtResource("29_3ohgy")]
+position = Vector2(110, 280)
+
+[node name="number4A" parent="." unique_id=1911082727 instance=ExtResource("30_3ohgy")]
+position = Vector2(150, 280)
+
+[node name="number5A" parent="." unique_id=2056810855 instance=ExtResource("31_4k8id")]
+position = Vector2(190, 280)
+
+[node name="number6A" parent="." unique_id=1147194201 instance=ExtResource("32_qkog2")]
+position = Vector2(30, 340)
+
+[node name="number7A" parent="." unique_id=1916619645 instance=ExtResource("33_wkhln")]
+position = Vector2(70, 340)
+
+[node name="number8A" parent="." unique_id=1060531117 instance=ExtResource("34_2us64")]
+position = Vector2(110, 340)
+
+[node name="number9A" parent="." unique_id=49068090 instance=ExtResource("35_t402h")]
+position = Vector2(150, 340)
+
+[node name="number0A" parent="." unique_id=1164149183 instance=ExtResource("36_1quhy")]
+position = Vector2(190, 340)
