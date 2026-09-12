@@ -1,0 +1,90 @@
+[gd_scene format=3 uid="uid://vdgsxglagtpn"]
+
+[node name="letterB1" type="Node2D" unique_id=376150708]
+
+[node name="rimN" type="Node2D" parent="." unique_id=1041866781]
+
+[node name="poly" type="Polygon2D" parent="rimN" unique_id=1537071662]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNE" type="Node2D" parent="." unique_id=703089303]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="rimNE" unique_id=1525894278]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSE" type="Node2D" parent="." unique_id=1104578830]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="rimSE" unique_id=716874630]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimS" type="Node2D" parent="." unique_id=1572288624]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="rimS" unique_id=1656317651]
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimSW" type="Node2D" parent="." unique_id=1196205646]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="rimSW" unique_id=159257174]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="rimNW" type="Node2D" parent="." unique_id=605364574]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="rimNW" unique_id=1072362922]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-4.9999995, -10.000001, -3.0000002, -11.000002, 2.9999995, -11.000002, 5.0000005, -10.000001, 2.9999995, -9.000002, -3.0000002, -9.000002)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeE" type="Node2D" parent="." unique_id=584084578]
+
+[node name="poly" type="Polygon2D" parent="spokeE" unique_id=696580133]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSE" type="Node2D" parent="." unique_id=446319965]
+rotation = 1.0471976
+
+[node name="poly" type="Polygon2D" parent="spokeSE" unique_id=1759785383]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeSW" type="Node2D" parent="." unique_id=1145798949]
+rotation = 2.0943952
+
+[node name="poly" type="Polygon2D" parent="spokeSW" unique_id=300450781]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeW" type="Node2D" parent="." unique_id=1747369181]
+rotation = 3.1415927
+
+[node name="poly" type="Polygon2D" parent="spokeW" unique_id=834130246]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNW" type="Node2D" parent="." unique_id=290551896]
+rotation = 4.1887903
+
+[node name="poly" type="Polygon2D" parent="spokeNW" unique_id=964425136]
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="spokeNE" type="Node2D" parent="." unique_id=15077108]
+rotation = 5.2359877
+
+[node name="poly" type="Polygon2D" parent="spokeNE" unique_id=1808721382]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11, 0, 8.999999, 0.99999905, 2.9999993, 0.99999905)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)

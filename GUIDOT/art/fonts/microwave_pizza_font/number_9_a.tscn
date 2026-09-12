@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://c771t6nbusovi"]
+
+[node name="number9A" type="Node2D" unique_id=49068090]
+
+[node name="h1" type="Node2D" parent="." unique_id=708987985]
+position = Vector2(0, -22)
+
+[node name="poly" type="Polygon2D" parent="h1" unique_id=675002452]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h2" type="Node2D" parent="." unique_id=1128300412]
+
+[node name="poly" type="Polygon2D" parent="h2" unique_id=1468129124]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="h3" type="Node2D" parent="." unique_id=1578762172]
+position = Vector2(0, 22)
+
+[node name="poly" type="Polygon2D" parent="h3" unique_id=231433463]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v1" type="Node2D" parent="." unique_id=1626176600]
+position = Vector2(-11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="v1" unique_id=477816828]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v2" type="Node2D" parent="." unique_id=1907703673]
+position = Vector2(11, -11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="v2" unique_id=1917128093]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v3" type="Node2D" parent="." unique_id=1755596656]
+position = Vector2(-11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="v3" unique_id=619607326]
+color = Color(0, 0, 0, 1)
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
+
+[node name="v4" type="Node2D" parent="." unique_id=1566425052]
+position = Vector2(11, 11)
+rotation = 1.5707964
+
+[node name="poly" type="Polygon2D" parent="v4" unique_id=1933962728]
+polygon = PackedVector2Array(-10, 0, -6, -2, 6, -2, 10, 0, 6, 2, -6, 2)
+uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)

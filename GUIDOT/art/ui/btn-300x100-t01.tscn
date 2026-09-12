@@ -1,15 +1,14 @@
-[gd_scene format=3 uid="uid://i5lh0rypamov"]
+[gd_scene format=3 uid="uid://pfejl3y35jgh"]
 
-[node name="btn-300x100-type02-b" type="Node" unique_id=654381768]
+[node name="btn-300x100-type01" type="Node" unique_id=654381768]
 
-[node name="bg-01-b" type="Polygon2D" parent="." unique_id=1545068088]
-color = Color(0, 0, 0.34901962, 1)
+[node name="bg-01" type="Polygon2D" parent="." unique_id=1545068088]
+color = Color(0.3491902, 0.3491902, 0.3491902, 1)
 polygon = PackedVector2Array(0, 0, 300, 0, 300, 100, 0, 100)
 uv = PackedVector2Array(-190, -110, 70, -110, 70, -30, -190, -30)
 metadata/_edit_lock_ = true
 
-[node name="bo-01-10-b" type="Polygon2D" parent="." unique_id=1518074474]
+[node name="bo-10" type="Polygon2D" parent="." unique_id=1518074474]
 polygon = PackedVector2Array(0, 2.861023e-06, 0, 100.000015, 10, 90.000015, 10, 10.000007, 290, 10, 290, 90, 10, 90.000015, 0, 100.000015, 300, 100, 300, 0)
 uv = PackedVector2Array(-130, 10, -130, 110.000015, -120, 100.000015, -120, 20.000004, 60, 20.000004, 60, 100.000015, -120, 100.000015, -130, 110.000015, 70, 110.000015, 70, 10)
-vertex_colors = PackedColorArray(0, 0, 0.3491902, 1, 0, 0, 0.34901962, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0.34901962, 1, 0, 0, 0.34901962, 1, 0, 0, 0.34901962, 1)
 metadata/_edit_lock_ = true
