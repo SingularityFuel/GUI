@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://dw5rtenyopa6l"]
 
-[ext_resource type="PackedScene" uid="uid://doqkr5ld68062" path="res://mimic/ui/play_button.tscn" id="1_qcuo4"]
-[ext_resource type="PackedScene" uid="uid://dgdkqikw2umu1" path="res://mimic/ui/options_button.tscn" id="2_tuh37"]
-[ext_resource type="PackedScene" uid="uid://dhhp5mu11ubst" path="res://mimic/ui/credits_button.tscn" id="3_sj1et"]
-[ext_resource type="PackedScene" uid="uid://dlp2i3sq83aqx" path="res://mimic/ui/exit_button.tscn" id="3_tuh37"]
+[ext_resource type="PackedScene" uid="uid://doqkr5ld68062" path="res://mimic/dungeon_crawl/ui/play_button.tscn" id="1_qcuo4"]
+[ext_resource type="PackedScene" uid="uid://dgdkqikw2umu1" path="res://mimic/dungeon_crawl/ui/options_button.tscn" id="2_tuh37"]
+[ext_resource type="PackedScene" uid="uid://dhhp5mu11ubst" path="res://mimic/dungeon_crawl/ui/credits_button.tscn" id="3_sj1et"]
+[ext_resource type="PackedScene" uid="uid://dlp2i3sq83aqx" path="res://mimic/dungeon_crawl/ui/exit_button.tscn" id="3_tuh37"]
 
 [node name="Canvas" type="ColorRect" unique_id=803102678]
 anchors_preset = 15

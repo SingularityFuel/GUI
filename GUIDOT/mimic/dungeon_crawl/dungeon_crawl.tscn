@@ -1,12 +1,12 @@
 [gd_scene format=3 uid="uid://by845cyd4f0gs"]
 
-[ext_resource type="Script" uid="uid://dj6sfo4155223" path="res://mimic/dungeon_crawl.gd" id="1_sh85g"]
+[ext_resource type="Script" uid="uid://dj6sfo4155223" path="res://mimic/dungeon_crawl/dungeon_crawl.gd" id="1_sh85g"]
 [ext_resource type="PackedScene" uid="uid://drjtntp45egdq" path="res://scene/ui/button_rect_5_txt.tscn" id="2_jdwgi"]
-[ext_resource type="PackedScene" uid="uid://doqkr5ld68062" path="res://mimic/ui/play_button.tscn" id="2_vr3fn"]
+[ext_resource type="PackedScene" uid="uid://doqkr5ld68062" path="res://mimic/dungeon_crawl/ui/play_button.tscn" id="2_vr3fn"]
 [ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/micros/recolor.gd" id="3_jyk6y"]
-[ext_resource type="PackedScene" uid="uid://dgdkqikw2umu1" path="res://mimic/ui/options_button.tscn" id="3_l4nj8"]
-[ext_resource type="PackedScene" uid="uid://dhhp5mu11ubst" path="res://mimic/ui/credits_button.tscn" id="4_0mhx8"]
-[ext_resource type="PackedScene" uid="uid://dlp2i3sq83aqx" path="res://mimic/ui/exit_button.tscn" id="5_7bd8f"]
+[ext_resource type="PackedScene" uid="uid://dgdkqikw2umu1" path="res://mimic/dungeon_crawl/ui/options_button.tscn" id="3_l4nj8"]
+[ext_resource type="PackedScene" uid="uid://dhhp5mu11ubst" path="res://mimic/dungeon_crawl/ui/credits_button.tscn" id="4_0mhx8"]
+[ext_resource type="PackedScene" uid="uid://dlp2i3sq83aqx" path="res://mimic/dungeon_crawl/ui/exit_button.tscn" id="5_7bd8f"]
 
 [node name="DungeonCrawl" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase", "MainMenuOptions", "MainMenuCredits", "MainMenuNewSlotter", "MainMenuDiffSelector", "MainMenuTeamBuilder", "MainMenuSlot1", "MainMenuSlot2", "MainMenuSlot3", "NavDungeonHUD", "NavDungeonIntro")]
 layout_mode = 3
