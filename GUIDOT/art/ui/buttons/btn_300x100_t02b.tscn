@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://tiykjp45sq0h"]
+[gd_scene format=3 uid="uid://dnyw3xvtaj5c7"]
 
-[node name="btn_300x100_type02a" type="Control" unique_id=1412687580]
+[node name="btn_300x100_type02b" type="Control" unique_id=1412687580]
 layout_mode = 3
 anchors_preset = 0
 
@@ -18,11 +18,12 @@ metadata/_edit_lock_ = true
 
 [node name="letters7" type="Polygon2D" parent="." unique_id=399301920]
 position = Vector2(125, 50)
-color = Color(0.1897483, 0.1897483, 0.1897483, 1)
-polygon = PackedVector2Array(-105, -15, 105, -15, 105, 15, -105, 15)
+color = Color(0.15170373, 0.15170373, 0.15170373, 1)
+polygon = PackedVector2Array(-110, -20, 110, -20, 110, 20, -110, 20)
 uv = PackedVector2Array(-205, -40, -45, -25, -40, 25, -205, 5)
 
 [node name="number1" type="Polygon2D" parent="." unique_id=628457945]
+visible = false
 position = Vector2(260, 50)
 color = Color(0, 0, 0, 1)
 polygon = PackedVector2Array(-20, -30, 20, -30, 20, 30, -20, 30)

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dhhp5mu11ubst"]
 
-[ext_resource type="PackedScene" uid="uid://tiykjp45sq0h" path="res://art/ui/buttons/btn_300x100_t02a.tscn" id="1_og8f2"]
+[ext_resource type="PackedScene" uid="uid://dnyw3xvtaj5c7" path="res://art/ui/buttons/btn_300x100_t02b.tscn" id="1_jmuo0"]
 [ext_resource type="PackedScene" uid="uid://cwkqcfcojt47" path="res://art/fonts/microwave_pizza_font/letter_c_1.tscn" id="2_65hqq"]
 [ext_resource type="PackedScene" uid="uid://c866trx5iap0q" path="res://art/fonts/microwave_pizza_font/letter_r_1.tscn" id="3_i4kev"]
 [ext_resource type="PackedScene" uid="uid://c6l1ulw2gwjj5" path="res://art/fonts/microwave_pizza_font/letter_e_1.tscn" id="4_yffw8"]
@@ -14,7 +14,7 @@
 layout_mode = 3
 anchors_preset = 0
 
-[node name="btn_300x100_type02a" parent="." unique_id=1412687580 instance=ExtResource("1_og8f2")]
+[node name="btn_300x100_type02b" parent="." unique_id=1412687580 instance=ExtResource("1_jmuo0")]
 layout_mode = 0
 
 [node name="letterC1" parent="." unique_id=803880219 instance=ExtResource("2_65hqq")]
