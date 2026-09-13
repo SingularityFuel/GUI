@@ -12,6 +12,7 @@ extends Control
 @export var MainMenuBG: Node
 @export var MainMenuBase: Node
 @export var MainMenuOptions: Node
+@export var MainMenuCredits: Node
 @export var MainMenuNewSlotter: Node 
 @export var MainMenuDiffSelector: Node 
 @export var MainMenuTeamBuilder: Node 
@@ -114,7 +115,7 @@ func InitState() -> void:
 
 func DoAction(action:String) -> void:
 	match action:
-		"MainMenu [Escape]":
+		"MainMenu [0]":
 			get_tree().quit()
 		"MainMenu-Play [Left]":
 			match SaveSlot:
@@ -157,6 +158,11 @@ func PopulateStates() -> void:
 		MainMenuOptions,
 	)
 	AddState(
+		"MainMenu-Creds",
+		MainMenuBG,
+		MainMenuCredits,
+	)
+	AddState(
 		"MainMenu-Play",
 		MainMenuBG,
 		MainMenuNewSlotter,
@@ -197,6 +203,7 @@ func PopulateTransitions() -> void:
 	# Main Menu
 	AddTwoWayTransition("1","MainMenu","MainMenu-Play")
 	AddTwoWayTransition("2","MainMenu","MainMenu-Opts")
+	AddTwoWayTransition("3","MainMenu","MainMenu-Creds")
 	AddTwoWayTransition("1","MainMenu-Play","MainMenu-DiffSelect")
 	AddTwoWayTransition("1","MainMenu-DiffSelect","MainMenu-TeamBuild")
 	AddTwoWayTransition("2","MainMenu-TeamBuild","MainMenu-SkillPreview")

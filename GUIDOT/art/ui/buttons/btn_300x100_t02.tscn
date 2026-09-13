@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://cwdl2dxm4dh5k"]
 
-[node name="btn-300x100-type02" type="Node" unique_id=654381768]
+[node name="btn_300x100_type02" type="Control" unique_id=1412687580]
+layout_mode = 3
+anchors_preset = 0
 
 [node name="bg-01" type="Polygon2D" parent="." unique_id=1545068088]
 color = Color(0.3491902, 0.3491902, 0.3491902, 1)

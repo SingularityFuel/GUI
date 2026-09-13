@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://dgdkqikw2umu1"]
+
+[ext_resource type="PackedScene" uid="uid://tiykjp45sq0h" path="res://art/ui/buttons/btn_300x100_t02a.tscn" id="1_cxeyn"]
+[ext_resource type="PackedScene" uid="uid://0ilekwyjl1by" path="res://art/fonts/microwave_pizza_font/letter_o_1.tscn" id="2_2oiph"]
+[ext_resource type="PackedScene" uid="uid://t4h4a7xwb0w4" path="res://art/fonts/microwave_pizza_font/letter_p_1.tscn" id="3_8bons"]
+[ext_resource type="PackedScene" uid="uid://bx5o05hk5bi11" path="res://art/fonts/microwave_pizza_font/letter_t_1.tscn" id="4_sckub"]
+[ext_resource type="PackedScene" uid="uid://bjbdllmuh6h4o" path="res://art/fonts/microwave_pizza_font/letter_i_1.tscn" id="5_daq1l"]
+[ext_resource type="PackedScene" uid="uid://b6ysl0k8v0nya" path="res://art/fonts/microwave_pizza_font/letter_n_1.tscn" id="6_fykmh"]
+[ext_resource type="PackedScene" uid="uid://bu06cvhh0lky2" path="res://art/fonts/microwave_pizza_font/letter_s_1.tscn" id="7_3p56t"]
+[ext_resource type="PackedScene" uid="uid://dua5v1cugqdmy" path="res://art/fonts/microwave_pizza_font/number_2_a.tscn" id="8_60fer"]
+
+[node name="OptionsButton" type="Control" unique_id=1286977594]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="btn_300x100_type02a" parent="." unique_id=1412687580 instance=ExtResource("1_cxeyn")]
+layout_mode = 0
+
+[node name="letterO1" parent="." unique_id=1078868400 instance=ExtResource("2_2oiph")]
+position = Vector2(35, 50)
+
+[node name="letterP1" parent="." unique_id=1252104487 instance=ExtResource("3_8bons")]
+position = Vector2(65, 50)
+
+[node name="letterT1" parent="." unique_id=1199117811 instance=ExtResource("4_sckub")]
+position = Vector2(95, 50)
+
+[node name="letterI1" parent="." unique_id=1133527528 instance=ExtResource("5_daq1l")]
+position = Vector2(125, 50)
+
+[node name="letterO2" parent="." unique_id=1430957318 instance=ExtResource("2_2oiph")]
+position = Vector2(155, 50)
+
+[node name="letterN1" parent="." unique_id=296707566 instance=ExtResource("6_fykmh")]
+position = Vector2(185, 50)
+
+[node name="letterS1" parent="." unique_id=710903276 instance=ExtResource("7_3p56t")]
+position = Vector2(215, 50)
+
+[node name="number2A" parent="." unique_id=996825224 instance=ExtResource("8_60fer")]
+position = Vector2(260, 50)

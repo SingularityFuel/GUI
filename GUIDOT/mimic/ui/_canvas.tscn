@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dw5rtenyopa6l"]
+
+[ext_resource type="PackedScene" uid="uid://doqkr5ld68062" path="res://mimic/ui/play_button.tscn" id="1_qcuo4"]
+[ext_resource type="PackedScene" uid="uid://dgdkqikw2umu1" path="res://mimic/ui/options_button.tscn" id="2_tuh37"]
+[ext_resource type="PackedScene" uid="uid://dhhp5mu11ubst" path="res://mimic/ui/credits_button.tscn" id="3_sj1et"]
+[ext_resource type="PackedScene" uid="uid://dlp2i3sq83aqx" path="res://mimic/ui/exit_button.tscn" id="3_tuh37"]
+
+[node name="Canvas" type="ColorRect" unique_id=803102678]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="PlayButton" parent="." unique_id=1014621330 instance=ExtResource("1_qcuo4")]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 210.0
+offset_right = 10.0
+offset_bottom = 210.0
+
+[node name="OptionsButton" parent="." unique_id=1286977594 instance=ExtResource("2_tuh37")]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 210.0
+offset_right = 320.0
+offset_bottom = 210.0
+
+[node name="CreditsButton" parent="." unique_id=1142446803 instance=ExtResource("3_sj1et")]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 320.0
+offset_right = 320.0
+offset_bottom = 320.0
+
+[node name="ExitButton" parent="." unique_id=1083988169 instance=ExtResource("3_tuh37")]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 320.0
+offset_right = 10.0
+offset_bottom = 320.0

@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dhhp5mu11ubst"]
+
+[ext_resource type="PackedScene" uid="uid://tiykjp45sq0h" path="res://art/ui/buttons/btn_300x100_t02a.tscn" id="1_og8f2"]
+[ext_resource type="PackedScene" uid="uid://cwkqcfcojt47" path="res://art/fonts/microwave_pizza_font/letter_c_1.tscn" id="2_65hqq"]
+[ext_resource type="PackedScene" uid="uid://c866trx5iap0q" path="res://art/fonts/microwave_pizza_font/letter_r_1.tscn" id="3_i4kev"]
+[ext_resource type="PackedScene" uid="uid://c6l1ulw2gwjj5" path="res://art/fonts/microwave_pizza_font/letter_e_1.tscn" id="4_yffw8"]
+[ext_resource type="PackedScene" uid="uid://bsnwpxepelxvx" path="res://art/fonts/microwave_pizza_font/letter_d_1.tscn" id="5_71mt0"]
+[ext_resource type="PackedScene" uid="uid://bjbdllmuh6h4o" path="res://art/fonts/microwave_pizza_font/letter_i_1.tscn" id="6_ofdrm"]
+[ext_resource type="PackedScene" uid="uid://bx5o05hk5bi11" path="res://art/fonts/microwave_pizza_font/letter_t_1.tscn" id="7_83i3t"]
+[ext_resource type="PackedScene" uid="uid://bu06cvhh0lky2" path="res://art/fonts/microwave_pizza_font/letter_s_1.tscn" id="8_akmca"]
+[ext_resource type="PackedScene" uid="uid://b6abrfamglowm" path="res://art/fonts/microwave_pizza_font/number_3_a.tscn" id="9_7bdov"]
+
+[node name="CreditsButton" type="Control" unique_id=1142446803]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="btn_300x100_type02a" parent="." unique_id=1412687580 instance=ExtResource("1_og8f2")]
+layout_mode = 0
+
+[node name="letterC1" parent="." unique_id=803880219 instance=ExtResource("2_65hqq")]
+position = Vector2(35, 50)
+
+[node name="letterR1" parent="." unique_id=1156538116 instance=ExtResource("3_i4kev")]
+position = Vector2(65, 50)
+
+[node name="letterE1" parent="." unique_id=627136020 instance=ExtResource("4_yffw8")]
+position = Vector2(95, 50)
+
+[node name="letterD1" parent="." unique_id=116528629 instance=ExtResource("5_71mt0")]
+position = Vector2(125, 50)
+
+[node name="letterI1" parent="." unique_id=1133527528 instance=ExtResource("6_ofdrm")]
+position = Vector2(155, 50)
+
+[node name="letterT1" parent="." unique_id=1199117811 instance=ExtResource("7_83i3t")]
+position = Vector2(185, 50)
+
+[node name="letterS1" parent="." unique_id=710903276 instance=ExtResource("8_akmca")]
+position = Vector2(215, 50)
+
+[node name="number3A" parent="." unique_id=1807055425 instance=ExtResource("9_7bdov")]
+position = Vector2(260, 50)

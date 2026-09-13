@@ -664,7 +664,7 @@ polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11
 uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
 
 [node name="number" type="Node2D" parent="oneline-button" unique_id=2130570417]
-position = Vector2(255, 50)
+position = Vector2(260, 50)
 metadata/_edit_lock_ = true
 
 [node name="h1" type="Node2D" parent="oneline-button/number" unique_id=707443354]
@@ -1940,7 +1940,7 @@ polygon = PackedVector2Array(1, 0, 2.9999993, -1.000001, 8.999999, -1.000001, 11
 uv = PackedVector2Array(-20, 18, -18, 17, -12, 17, -10, 18, -12, 19, -18, 19)
 
 [node name="number" type="Node2D" parent="twoline-button" unique_id=803530266]
-position = Vector2(255, 50)
+position = Vector2(260, 50)
 metadata/_edit_lock_ = true
 
 [node name="h1" type="Node2D" parent="twoline-button/number" unique_id=301007039]
