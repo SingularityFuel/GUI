@@ -1,10 +1,14 @@
 [gd_scene format=3 uid="uid://by845cyd4f0gs"]
 
-[ext_resource type="Script" uid="uid://dj6sfo4155223" path="res://mimic/dungeon_crawl.gd" id="1_sh85g"]
+[ext_resource type="Script" uid="uid://dj6sfo4155223" path="res://mimic/dungeon_crawl/dungeon_crawl.gd" id="1_sh85g"]
 [ext_resource type="PackedScene" uid="uid://drjtntp45egdq" path="res://scene/ui/button_rect_5_txt.tscn" id="2_jdwgi"]
+[ext_resource type="PackedScene" uid="uid://doqkr5ld68062" path="res://mimic/dungeon_crawl/ui/play_button.tscn" id="2_vr3fn"]
 [ext_resource type="Script" uid="uid://cjuer2ix5heyi" path="res://code/micros/recolor.gd" id="3_jyk6y"]
+[ext_resource type="PackedScene" uid="uid://dgdkqikw2umu1" path="res://mimic/dungeon_crawl/ui/options_button.tscn" id="3_l4nj8"]
+[ext_resource type="PackedScene" uid="uid://dhhp5mu11ubst" path="res://mimic/dungeon_crawl/ui/credits_button.tscn" id="4_0mhx8"]
+[ext_resource type="PackedScene" uid="uid://dlp2i3sq83aqx" path="res://mimic/dungeon_crawl/ui/exit_button.tscn" id="5_7bd8f"]
 
-[node name="DungeonCrawl" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase", "MainMenuOptions", "MainMenuNewSlotter", "MainMenuDiffSelector", "MainMenuTeamBuilder", "MainMenuSlot1", "MainMenuSlot2", "MainMenuSlot3", "NavDungeonHUD", "NavDungeonIntro")]
+[node name="DungeonCrawl" type="Control" unique_id=2111453994 node_paths=PackedStringArray("MainMenuBase", "MainMenuOptions", "MainMenuCredits", "MainMenuNewSlotter", "MainMenuDiffSelector", "MainMenuTeamBuilder", "MainMenuSlot1", "MainMenuSlot2", "MainMenuSlot3", "NavDungeonHUD", "NavDungeonIntro")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -14,6 +18,7 @@ grow_vertical = 2
 script = ExtResource("1_sh85g")
 MainMenuBase = NodePath("MainMenuBounds/MainMenuZone")
 MainMenuOptions = NodePath("MainMenuBounds/MainOptionsZone")
+MainMenuCredits = NodePath("MainMenuBounds/MainCreditsZone")
 MainMenuNewSlotter = NodePath("MainMenuBounds/NewGameZone")
 MainMenuDiffSelector = NodePath("MainMenuBounds/DifficultySelectZone")
 MainMenuTeamBuilder = NodePath("MainMenuBounds/TeamSelectZone")
@@ -42,8 +47,7 @@ border_width = 5.0
 metadata/_edit_lock_ = true
 
 [node name="MainMenuZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=1014263606]
-visible = false
-custom_minimum_size = Vector2(200, 400)
+custom_minimum_size = Vector2(400, 600)
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.5
@@ -56,40 +60,10 @@ border_color = Color(1, 1, 0, 1)
 border_width = 2.0
 metadata/_edit_lock_ = true
 
-[node name="BtPlay" parent="MainMenuBounds/MainMenuZone" unique_id=4709135 instance=ExtResource("2_jdwgi")]
-layout_mode = 0
-offset_left = 25.0
-offset_top = 175.0
-offset_right = 175.0
-offset_bottom = 225.0
-text = "Play [ 1 ]"
-color = Color(0, 1, 0, 1)
-metadata/_edit_lock_ = true
-
-[node name="BtOpts" parent="MainMenuBounds/MainMenuZone" unique_id=1802007924 instance=ExtResource("2_jdwgi")]
-layout_mode = 0
-offset_left = 25.0
-offset_top = 250.0
-offset_right = 175.0
-offset_bottom = 300.0
-text = "Options [ 2 ]"
-color = Color(0, 0, 1, 1)
-metadata/_edit_lock_ = true
-
-[node name="BtExit" parent="MainMenuBounds/MainMenuZone" unique_id=750098840 instance=ExtResource("2_jdwgi")]
-layout_mode = 0
-offset_left = 25.0
-offset_top = 325.0
-offset_right = 175.0
-offset_bottom = 375.0
-text = "Exit [ Esc ]"
-color = Color(1, 0, 0, 1)
-metadata/_edit_lock_ = true
-
 [node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/MainMenuZone" unique_id=819037051]
 layout_mode = 0
-offset_right = 200.0
-offset_bottom = 87.5
+offset_right = 400.0
+offset_bottom = 100.0
 border_color = Color(0, 0, 1, 1)
 metadata/_edit_lock_ = true
 
@@ -105,6 +79,34 @@ text = "CRAWL"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
+
+[node name="PlayButton" parent="MainMenuBounds/MainMenuZone" unique_id=1014621330 instance=ExtResource("2_vr3fn")]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 120.0
+offset_right = 50.0
+offset_bottom = 120.0
+
+[node name="OptionsButton" parent="MainMenuBounds/MainMenuZone" unique_id=1286977594 instance=ExtResource("3_l4nj8")]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 240.0
+offset_right = 50.0
+offset_bottom = 240.0
+
+[node name="CreditsButton" parent="MainMenuBounds/MainMenuZone" unique_id=1142446803 instance=ExtResource("4_0mhx8")]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 360.0
+offset_right = 50.0
+offset_bottom = 360.0
+
+[node name="ExitButton" parent="MainMenuBounds/MainMenuZone" unique_id=1083988169 instance=ExtResource("5_7bd8f")]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 480.0
+offset_right = 50.0
+offset_bottom = 480.0
 
 [node name="NewGameZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=1529905916]
 visible = false
@@ -350,6 +352,51 @@ horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_lock_ = true
 
+[node name="MainCreditsZone" type="ReferenceRect" parent="MainMenuBounds" unique_id=1283798425]
+visible = false
+custom_minimum_size = Vector2(600, 400)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(1, 1, 0, 1)
+border_width = 2.0
+metadata/_edit_lock_ = true
+
+[node name="BtBack" parent="MainMenuBounds/MainCreditsZone" unique_id=1289593349 instance=ExtResource("2_jdwgi")]
+layout_mode = 0
+offset_left = 25.0
+offset_top = 325.0
+offset_right = 175.0
+offset_bottom = 375.0
+text = "Back [ Esc ]"
+color = Color(1, 0, 0, 1)
+metadata/_edit_lock_ = true
+
+[node name="TitleBounds" type="ReferenceRect" parent="MainMenuBounds/MainCreditsZone" unique_id=612957731]
+layout_mode = 0
+offset_right = 600.0
+offset_bottom = 87.5
+border_color = Color(0, 0, 1, 1)
+metadata/_edit_lock_ = true
+
+[node name="Title" type="Label" parent="MainMenuBounds/MainCreditsZone/TitleBounds" unique_id=625142217]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 56
+text = "Credits"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_lock_ = true
+
 [node name="NavigationBounds" type="ReferenceRect" parent="." unique_id=856969252]
 layout_mode = 0
 offset_right = 1600.0
@@ -401,6 +448,7 @@ color = Color(0, 0, 1, 1)
 metadata/_edit_lock_ = true
 
 [node name="IntroZone" type="ReferenceRect" parent="NavigationBounds" unique_id=1948932453]
+visible = false
 custom_minimum_size = Vector2(600, 400)
 layout_mode = 1
 anchors_preset = -1

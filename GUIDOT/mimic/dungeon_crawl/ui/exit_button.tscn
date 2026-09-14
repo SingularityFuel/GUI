@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://dlp2i3sq83aqx"]
+
+[ext_resource type="PackedScene" uid="uid://dnyw3xvtaj5c7" path="res://art/ui/buttons/btn_300x100_t02b.tscn" id="1_0or63"]
+[ext_resource type="PackedScene" uid="uid://ecug28if5ub1" path="res://art/fonts/microwave_pizza_font/letter.tscn" id="2_a1ax2"]
+[ext_resource type="PackedScene" uid="uid://c6l1ulw2gwjj5" path="res://art/fonts/microwave_pizza_font/letter_e_1.tscn" id="3_kv66c"]
+[ext_resource type="PackedScene" uid="uid://d22gngpu32k6l" path="res://art/fonts/microwave_pizza_font/letter_x_1.tscn" id="4_tjww2"]
+[ext_resource type="PackedScene" uid="uid://bjbdllmuh6h4o" path="res://art/fonts/microwave_pizza_font/letter_i_1.tscn" id="5_cpphn"]
+[ext_resource type="PackedScene" uid="uid://bx5o05hk5bi11" path="res://art/fonts/microwave_pizza_font/letter_t_1.tscn" id="6_3a372"]
+[ext_resource type="PackedScene" uid="uid://jrudetkgjwg" path="res://art/fonts/microwave_pizza_font/number_0_a.tscn" id="7_puves"]
+
+[node name="ExitButton" type="Control" unique_id=1083988169]
+modulate = Color(1, 0, 0, 1)
+layout_mode = 3
+anchors_preset = 0
+
+[node name="btn_300x100_type02b" parent="." unique_id=1412687580 instance=ExtResource("1_0or63")]
+layout_mode = 0
+
+[node name="letter5" parent="." unique_id=1248868492 instance=ExtResource("2_a1ax2")]
+position = Vector2(155, 50)
+
+[node name="letter6" parent="." unique_id=40509289 instance=ExtResource("2_a1ax2")]
+position = Vector2(185, 50)
+
+[node name="letter7" parent="." unique_id=45944501 instance=ExtResource("2_a1ax2")]
+position = Vector2(215, 50)
+
+[node name="letterE1" parent="." unique_id=627136020 instance=ExtResource("3_kv66c")]
+position = Vector2(35, 50)
+
+[node name="letterX1" parent="." unique_id=830681501 instance=ExtResource("4_tjww2")]
+position = Vector2(65, 50)
+
+[node name="letterI1" parent="." unique_id=1133527528 instance=ExtResource("5_cpphn")]
+position = Vector2(95, 50)
+
+[node name="letterT1" parent="." unique_id=1199117811 instance=ExtResource("6_3a372")]
+position = Vector2(125, 50)
+
+[node name="number0A" parent="." unique_id=1164149183 instance=ExtResource("7_puves")]
+position = Vector2(260, 50)
