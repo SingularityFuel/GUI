@@ -1,5 +1,5 @@
 class_name ReColor
-extends Control
+extends CanvasItem
 
 @export var color:Color = Color.DIM_GRAY
 
