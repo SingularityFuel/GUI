@@ -15,24 +15,24 @@ func Init() -> void:
 		L.logError("Bar.Init(): StateHint was null")
 	Txts = []
 	Cols = []
-	for l in Refs:
+	for l:Label in Refs:
 		Txts.append(l.text)
 		Cols.append(l.modulate)
 
 func Refresh() -> void:
-	for i in Refs.size():
+	for i:int in Refs.size():
 		Refs[i].text = Txts[i]
 		Refs[i].modulate = Cols[i]
 
 # depends on bar_state.gd
 func ChangeState(s:String) -> void:
-	var bs = BarState.Get(s)
+	var bs:BarState = BarState.Get(s)
 	StateHint.text = bs.State
-	for i in Txts.size():
+	for i:int in Txts.size():
 		Txts[i] = ""
 		if bs.Txts.size() > i:
 			Txts[i] = bs.Txts[i]
-	for i in Cols.size():
+	for i:int in Cols.size():
 		Cols[i] = Color.WHITE
 		if bs.Cols.size() > i:
 			Cols[i] = bs.Cols[i]

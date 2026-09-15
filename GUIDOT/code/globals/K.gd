@@ -25,27 +25,29 @@ var ODDKEYS: Array[String] = [
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is not InputEventKey:
 		return
-	if not event.is_pressed():
+	var kvent: InputEventKey = event as InputEventKey
+	var kcode: Key = kvent.keycode
+	if not kvent.pressed:
 		return
 	if event.is_echo():
 		return
-	if event.keycode >= KEY_0 and event.keycode <= KEY_9:
+	if kcode >= KEY_0 and kcode <= KEY_9:
 		# regular number keys
-		var digit: int = event.keycode - KEY_0
+		var digit: int = kcode - KEY_0
 		S.NumKey.emit(digit)
 		S.AnyKey.emit(str(digit))
 		return
-	if event.keycode >= KEY_KP_0 and event.keycode <= KEY_KP_9:
+	if kcode >= KEY_KP_0 and kcode <= KEY_KP_9:
 		# numpad number keys
-		var digit: int = event.keycode - KEY_KP_0
+		var digit: int = kcode - KEY_KP_0
 		S.NumKey.emit(digit)
 		S.AnyKey.emit(str(digit))
 		return
-	if event.keycode >= KEY_A and event.keycode <= KEY_Z:
+	if kcode >= KEY_A and kcode <= KEY_Z:
 		# 26 letter keys
 		# ignores shift, option, etc
 		# always emits capital letter
-		var index: int = event.keycode - KEY_A
+		var index: int = kcode - KEY_A
 		S.AbcKey.emit(LETTERS[index])
 		S.AnyKey.emit(LETTERS[index])
 		return
