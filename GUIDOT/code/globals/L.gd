@@ -5,10 +5,15 @@
 
 extends Node
 
+var LogErrors:bool = true
 var LogNumKeys:bool = false
 var LogAbcKeys:bool = false
 var LogOddKeys:bool = false
 var LogAnyKeys:bool = false
+
+func logError(e:String) -> void:
+	if LogErrors:
+		print("ERROR: ",e)
 
 func logNumKey(i:int) -> void:
 	if LogNumKeys:
