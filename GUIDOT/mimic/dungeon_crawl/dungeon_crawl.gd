@@ -9,44 +9,44 @@ extends Control
 #
 
 # For toggling visibility
-@export var MainMenuBG: Node
-@export var MainMenuBase: Node
-@export var MainMenuOptions: Node
-@export var MainMenuCredits: Node
-@export var MainMenuNewSlotter: Node 
-@export var MainMenuDiffSelector: Node 
-@export var MainMenuTeamBuilder: Node 
-@export var MainMenuSkillPreview: Node
+@export var MainMenuBG: CanvasItem
+@export var MainMenuBase: CanvasItem
+@export var MainMenuOptions: CanvasItem
+@export var MainMenuCredits: CanvasItem
+@export var MainMenuNewSlotter: CanvasItem 
+@export var MainMenuDiffSelector: CanvasItem 
+@export var MainMenuTeamBuilder: CanvasItem 
+@export var MainMenuSkillPreview: CanvasItem
 
 # For actions
-@export var MainMenuSlot1: Node 
-@export var MainMenuSlot2: Node 
-@export var MainMenuSlot3: Node 
+@export var MainMenuSlot1: CanvasItem 
+@export var MainMenuSlot2: CanvasItem 
+@export var MainMenuSlot3: CanvasItem 
 
 # For toggling visibility
-@export var NavDungeonBG: Node
-@export var NavDungeonBase: Node
-@export var NavDungeonHUD: Node
-@export var NavDungeonIntro: Node
-@export var NavDungeonScore: Node
-@export var NavDungeonQuit: Node
-@export var NavDungeonHelp: Node
-@export var NavDungeonOptions: Node
-@export var NavDungeonLoot: Node
+@export var NavDungeonBG: CanvasItem
+@export var NavDungeonBase: CanvasItem
+@export var NavDungeonHUD: CanvasItem
+@export var NavDungeonIntro: CanvasItem
+@export var NavDungeonScore: CanvasItem
+@export var NavDungeonQuit: CanvasItem
+@export var NavDungeonHelp: CanvasItem
+@export var NavDungeonOptions: CanvasItem
+@export var NavDungeonLoot: CanvasItem
 
 # For toggling visibility
-@export var InventoryBG: Node
-@export var InventoryBase: Node
-@export var InventoryOptions: Node
-@export var InventoryQuit: Node
-@export var InventoryStatUp: Node
-@export var InventorySkillUp: Node
+@export var InventoryBG: CanvasItem
+@export var InventoryBase: CanvasItem
+@export var InventoryOptions: CanvasItem
+@export var InventoryQuit: CanvasItem
+@export var InventoryStatUp: CanvasItem
+@export var InventorySkillUp: CanvasItem
 
 # For toggling visibility
-@export var CombatBG: Node
-@export var CombatBase: Node
-@export var CombatOptions: Node
-@export var CombatQuit: Node
+@export var CombatBG: CanvasItem
+@export var CombatBase: CanvasItem
+@export var CombatOptions: CanvasItem
+@export var CombatQuit: CanvasItem
 
 # State Machine
 var GameState:String = "None"
@@ -54,7 +54,7 @@ var States: Dictionary[String,State] = {}
 var Transitions: Dictionary[String,Transition] = {}
 
 # Specific State
-var SaveSlot = 1
+var SaveSlot:int = 1
 
 #############################################
 ##-----------------------------------------##
@@ -67,13 +67,13 @@ func _ready() -> void:
 	PopulateStates()
 	PopulateTransitions()
 	# Initialize State Machine
-	for s in States:
-		for n in States[s].Items:
+	for s:String in States:
+		for n:CanvasItem in States[s].Items:
 			n.hide()
 	assert(States["MainMenu"], "Main Menu State Exists")
 	GameState = "MainMenu"
 	InitState()
-	for n in States["MainMenu"].Items:
+	for n:CanvasItem in States["MainMenu"].Items:
 		n.show()
 	# Triggers
 	S.AnyKey.connect(_onKey)
@@ -99,9 +99,9 @@ func _onKey(k:String) -> void:
 #############################################
 
 func DoTransition(t:Transition) -> void:
-	for n in t.Hides:
+	for n:CanvasItem in t.Hides:
 		n.hide()
-	for n in t.Shows:
+	for n:CanvasItem in t.Shows:
 		n.show()
 	GameState = t.To
 	InitState()
@@ -225,7 +225,13 @@ func PopulateTransitions() -> void:
 
 func AddState(sName:String, ...shows:Array) -> void:
 	assert(not States.has(sName), "uniqueness")
-	States[sName] = State.New(sName, shows)
+	var typed:Array[CanvasItem] = []
+	for s:Object in shows:
+		if s is CanvasItem:
+			typed.append(s as CanvasItem)
+		elif s != null:
+			L.logError("AddState: shows not CanvasItem")
+	States[sName] = State.New(sName, typed)
 
 func AddOneWayTransition(key:String,from:String, to:String) -> void:
 	var tName:String = from + " [" + key + "]"
@@ -246,11 +252,11 @@ func AddTwoWayTransition(key:String, from:String, to:String) -> void:
 
 class State:
 	var Name: String
-	var Items: Array[Node]
-	static func New(nm:String, a: Array) -> State:
-		var s = State.new()
+	var Items: Array[CanvasItem]
+	static func New(nm:String, a: Array[CanvasItem]) -> State:
+		var s:State = State.new()
 		s.Name = nm
-		for n in a:
+		for n:CanvasItem in a:
 			if n != null:
 				s.Items.append(n)
 		return s
@@ -258,16 +264,16 @@ class State:
 class Transition:
 	var From: String
 	var To: String
-	var Shows: Array[Node]
-	var Hides: Array[Node]
+	var Shows: Array[CanvasItem]
+	var Hides: Array[CanvasItem]
 	static func New(from:State, to:State) -> Transition:
-		var t = Transition.new()
+		var t:Transition = Transition.new()
 		t.From = from.Name
 		t.To = to.Name
-		for n in from.Items:
+		for n:CanvasItem in from.Items:
 			if n not in to.Items:
 				t.Hides.append(n)
-		for n in to.Items:
+		for n:CanvasItem in to.Items:
 			if n not in from.Items:
 				t.Shows.append(n)
 		return t

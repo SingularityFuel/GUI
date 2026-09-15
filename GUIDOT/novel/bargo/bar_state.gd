@@ -6,7 +6,7 @@ var Txts: Array[String]
 var Cols: Array[Color]
 
 static func Get(state:String) -> BarState:
-	var bs = BarState.new()
+	var bs:BarState = BarState.new()
 	bs.State = state
 	match state:
 		"Main Menu":
