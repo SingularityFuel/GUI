@@ -5,7 +5,7 @@
 
 extends Node
 
-var LETTERS = [
+var LETTERS: Array[String] = [
 	"A","B","C","D","E",
 	"F","G","H","I","J",
 	"K","L","M","N","O",
@@ -13,7 +13,7 @@ var LETTERS = [
 	"U","V","W","X","Y",
 	"Z"]
 
-var ODDKEYS = [
+var ODDKEYS: Array[String] = [
 	"Escape",
 	"Up",
 	"Down",
@@ -25,7 +25,7 @@ var ODDKEYS = [
 func _unhandled_key_input(event: InputEvent) -> void:
 	if event is not InputEventKey:
 		return
-	if not event.pressed:
+	if not event.is_pressed():
 		return
 	if event.is_echo():
 		return
