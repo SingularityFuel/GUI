@@ -1,6 +1,7 @@
 extends Control
 
 @export var BottomBar:Bar
+@export var CreditsPanel:CanvasItem
 
 var GameState:String
 
@@ -9,6 +10,8 @@ func _ready() -> void:
 		L.logError("bottom bar nonexistent")
 	# Triggers
 	S.AnyKey.connect(_onKey)
+	# Hide Components
+	CreditsPanel.hide()
 	# Initialize
 	ChangeState("Main Menu")
 
@@ -54,5 +57,17 @@ func DoAction(action:String) -> void:
 			ChangeState("Main Menu")
 
 func ChangeState(state:String) -> void:
+	LeaveState(GameState)
 	BottomBar.ChangeState(state)
 	GameState = state
+	EnterState(GameState)
+
+func LeaveState(state:String) -> void:
+	match state:
+		"Credits":
+			CreditsPanel.hide()
+
+func EnterState(state:String) -> void:
+	match state:
+		"Credits":
+			CreditsPanel.show()
