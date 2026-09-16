@@ -1,5 +1,5 @@
 class_name Bar
-extends HBoxContainer
+extends CanvasItem
 
 @export var StateHint: Label
 @export var Refs: Array[Label]

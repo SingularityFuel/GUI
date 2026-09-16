@@ -1,10 +1,11 @@
 [gd_scene format=3 uid="uid://4c8wv34824cw"]
 
 [ext_resource type="Script" uid="uid://gigastd2c6t3" path="res://novel/bargo/bargo.gd" id="1_ioc6g"]
-[ext_resource type="Script" uid="uid://yrah2dhvw5jk" path="res://novel/bargo/bar.gd" id="2_jy4do"]
+[ext_resource type="PackedScene" uid="uid://jtfyxcvkkn4g" path="res://novel/bargo/bar.tscn" id="2_roek2"]
 [ext_resource type="Theme" uid="uid://b8lununx6pesr" path="res://novel/bargo/main_font_theme.tres" id="4_xi4j1"]
 
-[node name="Bargo" type="Control" unique_id=1347800792 node_paths=PackedStringArray("BottomBar", "CreditsPanel")]
+[node name="Bargo" type="Control" unique_id=1347800792 node_paths=PackedStringArray("BottomBar", "CreditsPanel", "OptionsPanel")]
+custom_minimum_size = Vector2(800, 600)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -12,8 +13,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ioc6g")
-BottomBar = NodePath("Bar/BarHBox")
+BottomBar = NodePath("Bar")
 CreditsPanel = NodePath("Credits")
+OptionsPanel = NodePath("Options")
 
 [node name="BG" type="ColorRect" parent="." unique_id=1002946325]
 layout_mode = 1
@@ -24,91 +26,11 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="Bar" type="ColorRect" parent="." unique_id=218714946]
-custom_minimum_size = Vector2(800, 70)
+[node name="Bar" parent="." unique_id=740554295 instance=ExtResource("2_roek2")]
 layout_mode = 1
-anchors_preset = -1
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -70.0
-color = Color(1, 1, 1, 0.1)
-metadata/_edit_lock_ = true
-
-[node name="BarHBox" type="HBoxContainer" parent="Bar" unique_id=522259876 node_paths=PackedStringArray("StateHint", "Refs")]
-custom_minimum_size = Vector2(70, 70)
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 28
-script = ExtResource("2_jy4do")
-StateHint = NodePath("State")
-Refs = [NodePath("Label1"), NodePath("Label2"), NodePath("Label3"), NodePath("Label4"), NodePath("Label5"), NodePath("Label6"), NodePath("Label7"), NodePath("Label8")]
-metadata/_edit_lock_ = true
-
-[node name="Blank" type="Control" parent="Bar/BarHBox" unique_id=39353473]
-layout_mode = 2
-metadata/_edit_lock_ = true
-
-[node name="State" type="Label" parent="Bar/BarHBox" unique_id=538780347]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-theme_override_colors/font_color = Color(0.33333334, 0.33333334, 0.33333334, 1)
-text = "State"
-metadata/_edit_lock_ = true
-
-[node name="Label1" type="Label" parent="Bar/BarHBox" unique_id=547122991]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-text = "Play (1)"
-metadata/_edit_lock_ = true
-
-[node name="Label2" type="Label" parent="Bar/BarHBox" unique_id=473990530]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-text = "Options (2)"
-metadata/_edit_lock_ = true
-
-[node name="Label3" type="Label" parent="Bar/BarHBox" unique_id=955860472]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-text = "Credits (3)"
-metadata/_edit_lock_ = true
-
-[node name="Label4" type="Label" parent="Bar/BarHBox" unique_id=615314478]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-text = "Quit (Esc)"
-metadata/_edit_lock_ = true
-
-[node name="Label5" type="Label" parent="Bar/BarHBox" unique_id=1933980201]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-metadata/_edit_lock_ = true
-
-[node name="Label6" type="Label" parent="Bar/BarHBox" unique_id=913326280]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-metadata/_edit_lock_ = true
-
-[node name="Label7" type="Label" parent="Bar/BarHBox" unique_id=282345186]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-metadata/_edit_lock_ = true
-
-[node name="Label8" type="Label" parent="Bar/BarHBox" unique_id=290638823]
-layout_mode = 2
-theme = ExtResource("4_xi4j1")
-theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-metadata/_edit_lock_ = true
 
 [node name="Credits" type="ColorRect" parent="." unique_id=1226702153]
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
@@ -145,3 +67,52 @@ Created with Godot editor
 External Fonts:
 \"Syne Mono\" and \"Space Mono\", each under SIL Open Font License, Version 1.1"
 horizontal_alignment = 1
+
+[node name="Options" type="ColorRect" parent="." unique_id=66526894]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 70.0
+offset_top = 70.0
+offset_right = -70.0
+offset_bottom = -140.0
+color = Color(0, 0, 0, 0.5)
+
+[node name="ReferenceRect" type="ReferenceRect" parent="Options" unique_id=1093075991]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(0.26666668, 0.26666668, 0.26666668, 1)
+border_width = 2.0
+editor_only = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Options" unique_id=1319789478]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Slider1" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=426346802]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+border_width = 2.0
+editor_only = false
+
+[node name="Slider2" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=1871647927]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+border_width = 2.0
+editor_only = false
+
+[node name="Slider3" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=152408143]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+border_width = 2.0
+editor_only = false

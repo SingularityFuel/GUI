@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://jtfyxcvkkn4g"]
+
+[ext_resource type="Script" uid="uid://yrah2dhvw5jk" path="res://novel/bargo/bar.gd" id="1_05ppw"]
+[ext_resource type="Theme" uid="uid://b8lununx6pesr" path="res://novel/bargo/main_font_theme.tres" id="2_xe66c"]
+
+[node name="Bar" type="ColorRect" unique_id=740554295 node_paths=PackedStringArray("StateHint", "Refs")]
+custom_minimum_size = Vector2(800, 70)
+anchors_preset = -1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -70.0
+color = Color(1, 1, 1, 0.1)
+script = ExtResource("1_05ppw")
+StateHint = NodePath("BarHBox/State")
+Refs = [NodePath("BarHBox/Label1"), NodePath("BarHBox/Label2"), NodePath("BarHBox/Label3"), NodePath("BarHBox/Label4"), NodePath("BarHBox/Label5"), NodePath("BarHBox/Label6"), NodePath("BarHBox/Label7"), NodePath("BarHBox/Label8")]
+metadata/_edit_lock_ = true
+
+[node name="BarHBox" type="HBoxContainer" parent="." unique_id=1524244931]
+custom_minimum_size = Vector2(70, 70)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 28
+metadata/_edit_lock_ = true
+
+[node name="Blank" type="Control" parent="BarHBox" unique_id=1819420951]
+layout_mode = 2
+metadata/_edit_lock_ = true
+
+[node name="State" type="Label" parent="BarHBox" unique_id=1887845948]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+theme_override_colors/font_color = Color(0.33333334, 0.33333334, 0.33333334, 1)
+text = "State"
+metadata/_edit_lock_ = true
+
+[node name="Label1" type="Label" parent="BarHBox" unique_id=610310690]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+text = "Play (1)"
+metadata/_edit_lock_ = true
+
+[node name="Label2" type="Label" parent="BarHBox" unique_id=437597692]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+text = "Options (2)"
+metadata/_edit_lock_ = true
+
+[node name="Label3" type="Label" parent="BarHBox" unique_id=318799947]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+text = "Credits (3)"
+metadata/_edit_lock_ = true
+
+[node name="Label4" type="Label" parent="BarHBox" unique_id=1723366961]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+text = "Quit (Esc)"
+metadata/_edit_lock_ = true
+
+[node name="Label5" type="Label" parent="BarHBox" unique_id=1010019253]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
+metadata/_edit_lock_ = true
+
+[node name="Label6" type="Label" parent="BarHBox" unique_id=1497865239]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
+metadata/_edit_lock_ = true
+
+[node name="Label7" type="Label" parent="BarHBox" unique_id=2092912029]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
+metadata/_edit_lock_ = true
+
+[node name="Label8" type="Label" parent="BarHBox" unique_id=1772276150]
+layout_mode = 2
+theme = ExtResource("2_xe66c")
+theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
+metadata/_edit_lock_ = true
