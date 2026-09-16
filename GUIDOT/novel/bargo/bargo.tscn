@@ -12,7 +12,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_ioc6g")
-BottomBar = NodePath("Bar/BarHBox")
+BottomBar = NodePath("Bar")
 CreditsPanel = NodePath("Credits")
 
 [node name="BG" type="ColorRect" parent="." unique_id=1002946325]
@@ -24,7 +24,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="Bar" type="ColorRect" parent="." unique_id=218714946]
+[node name="Bar" type="ColorRect" parent="." unique_id=218714946 node_paths=PackedStringArray("StateHint", "Refs")]
 custom_minimum_size = Vector2(800, 70)
 layout_mode = 1
 anchors_preset = -1
@@ -33,9 +33,12 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 offset_top = -70.0
 color = Color(1, 1, 1, 0.1)
+script = ExtResource("2_jy4do")
+StateHint = NodePath("BarHBox/State")
+Refs = [NodePath("BarHBox/Label1"), NodePath("BarHBox/Label2"), NodePath("BarHBox/Label3"), NodePath("BarHBox/Label4"), NodePath("BarHBox/Label5"), NodePath("BarHBox/Label6"), NodePath("BarHBox/Label7"), NodePath("BarHBox/Label8")]
 metadata/_edit_lock_ = true
 
-[node name="BarHBox" type="HBoxContainer" parent="Bar" unique_id=522259876 node_paths=PackedStringArray("StateHint", "Refs")]
+[node name="BarHBox" type="HBoxContainer" parent="Bar" unique_id=522259876]
 custom_minimum_size = Vector2(70, 70)
 layout_mode = 1
 anchors_preset = 15
@@ -44,9 +47,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/separation = 28
-script = ExtResource("2_jy4do")
-StateHint = NodePath("State")
-Refs = [NodePath("Label1"), NodePath("Label2"), NodePath("Label3"), NodePath("Label4"), NodePath("Label5"), NodePath("Label6"), NodePath("Label7"), NodePath("Label8")]
 metadata/_edit_lock_ = true
 
 [node name="Blank" type="Control" parent="Bar/BarHBox" unique_id=39353473]
