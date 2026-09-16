@@ -5,6 +5,7 @@
 [ext_resource type="Theme" uid="uid://b8lununx6pesr" path="res://novel/bargo/main_font_theme.tres" id="4_xi4j1"]
 
 [node name="Bargo" type="Control" unique_id=1347800792 node_paths=PackedStringArray("BottomBar", "CreditsPanel", "OptionsPanel")]
+custom_minimum_size = Vector2(800, 600)
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -99,6 +100,18 @@ grow_vertical = 2
 alignment = 1
 
 [node name="Slider1" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=426346802]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+border_width = 2.0
+editor_only = false
+
+[node name="Slider2" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=1871647927]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+border_width = 2.0
+editor_only = false
+
+[node name="Slider3" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=152408143]
 custom_minimum_size = Vector2(100, 50)
 layout_mode = 2
 border_width = 2.0

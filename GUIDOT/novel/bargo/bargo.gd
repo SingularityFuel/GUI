@@ -7,6 +7,9 @@ extends Control
 var GameState:String
 
 func _ready() -> void:
+	# Things that should be project settings
+	get_window().min_size = Vector2i(800, 600)
+	# Check
 	if BottomBar == null:
 		L.logError("bottom bar nonexistent")
 	# Triggers
