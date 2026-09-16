@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://4c8wv34824cw"]
 
-[ext_resource type="Script" uid="uid://gigastd2c6t3" path="res://novel/bargo.gd" id="1_ioc6g"]
+[ext_resource type="Script" uid="uid://gigastd2c6t3" path="res://novel/bargo/bargo.gd" id="1_ioc6g"]
 [ext_resource type="Script" uid="uid://yrah2dhvw5jk" path="res://novel/bargo/bar.gd" id="2_jy4do"]
-[ext_resource type="FontFile" uid="uid://h2wnpmgknmbg" path="res://import/font/SyneMono-Regular.ttf" id="3_ro71n"]
+[ext_resource type="Theme" uid="uid://b8lununx6pesr" path="res://novel/bargo/main_font_theme.tres" id="4_xi4j1"]
 
 [node name="Bargo" type="Control" unique_id=1347800792 node_paths=PackedStringArray("BottomBar", "CreditsPanel")]
 layout_mode = 3
@@ -55,70 +55,60 @@ metadata/_edit_lock_ = true
 
 [node name="State" type="Label" parent="Bar/BarHBox" unique_id=538780347]
 layout_mode = 2
+theme = ExtResource("4_xi4j1")
 theme_override_colors/font_color = Color(0.33333334, 0.33333334, 0.33333334, 1)
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
 text = "State"
 metadata/_edit_lock_ = true
 
 [node name="Label1" type="Label" parent="Bar/BarHBox" unique_id=547122991]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
+theme = ExtResource("4_xi4j1")
 text = "Play (1)"
 metadata/_edit_lock_ = true
 
 [node name="Label2" type="Label" parent="Bar/BarHBox" unique_id=473990530]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
+theme = ExtResource("4_xi4j1")
 text = "Options (2)"
 metadata/_edit_lock_ = true
 
 [node name="Label3" type="Label" parent="Bar/BarHBox" unique_id=955860472]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
+theme = ExtResource("4_xi4j1")
 text = "Credits (3)"
 metadata/_edit_lock_ = true
 
 [node name="Label4" type="Label" parent="Bar/BarHBox" unique_id=615314478]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
+theme = ExtResource("4_xi4j1")
 text = "Quit (Esc)"
 metadata/_edit_lock_ = true
 
 [node name="Label5" type="Label" parent="Bar/BarHBox" unique_id=1933980201]
 layout_mode = 2
+theme = ExtResource("4_xi4j1")
 theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
 metadata/_edit_lock_ = true
 
 [node name="Label6" type="Label" parent="Bar/BarHBox" unique_id=913326280]
 layout_mode = 2
+theme = ExtResource("4_xi4j1")
 theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
 metadata/_edit_lock_ = true
 
 [node name="Label7" type="Label" parent="Bar/BarHBox" unique_id=282345186]
 layout_mode = 2
+theme = ExtResource("4_xi4j1")
 theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
 metadata/_edit_lock_ = true
 
 [node name="Label8" type="Label" parent="Bar/BarHBox" unique_id=290638823]
 layout_mode = 2
+theme = ExtResource("4_xi4j1")
 theme_override_colors/font_color = Color(1, 0.33333334, 0.33333334, 1)
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 26
 metadata/_edit_lock_ = true
 
 [node name="Credits" type="ColorRect" parent="." unique_id=1226702153]
-visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
@@ -139,20 +129,19 @@ grow_vertical = 2
 border_color = Color(0.26666668, 0.26666668, 0.26666668, 1)
 border_width = 2.0
 
-[node name="Label" type="Label" parent="Credits" unique_id=1905640873]
+[node name="CreditsTxt" type="Label" parent="Credits" unique_id=1905640873]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/font = ExtResource("3_ro71n")
-theme_override_font_sizes/font_size = 24
+theme = ExtResource("4_xi4j1")
 text = "
 Source Code: github.com/SingularityFuel/GUI
 
 Created with Godot editor
 
 External Fonts:
-\"Syne Mono\" under SIL Open Font License, Version 1.1"
+\"Syne Mono\" and \"Space Mono\", each under SIL Open Font License, Version 1.1"
 horizontal_alignment = 1
