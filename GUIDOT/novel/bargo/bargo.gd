@@ -2,6 +2,7 @@ extends Control
 
 @export var BottomBar:Bar
 @export var CreditsPanel:CanvasItem
+@export var OptionsPanel:CanvasItem
 
 var GameState:String
 
@@ -12,6 +13,7 @@ func _ready() -> void:
 	S.AnyKey.connect(_onKey)
 	# Hide Components
 	CreditsPanel.hide()
+	OptionsPanel.hide()
 	# Initialize
 	ChangeState("Main Menu")
 
@@ -66,8 +68,12 @@ func LeaveState(state:String) -> void:
 	match state:
 		"Credits":
 			CreditsPanel.hide()
+		"Options":
+			OptionsPanel.hide()
 
 func EnterState(state:String) -> void:
 	match state:
 		"Credits":
 			CreditsPanel.show()
+		"Options":
+			OptionsPanel.show()

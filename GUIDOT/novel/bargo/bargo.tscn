@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://jtfyxcvkkn4g" path="res://novel/bargo/bar.tscn" id="2_roek2"]
 [ext_resource type="Theme" uid="uid://b8lununx6pesr" path="res://novel/bargo/main_font_theme.tres" id="4_xi4j1"]
 
-[node name="Bargo" type="Control" unique_id=1347800792 node_paths=PackedStringArray("BottomBar", "CreditsPanel")]
+[node name="Bargo" type="Control" unique_id=1347800792 node_paths=PackedStringArray("BottomBar", "CreditsPanel", "OptionsPanel")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -14,6 +14,7 @@ grow_vertical = 2
 script = ExtResource("1_ioc6g")
 BottomBar = NodePath("Bar")
 CreditsPanel = NodePath("Credits")
+OptionsPanel = NodePath("Options")
 
 [node name="BG" type="ColorRect" parent="." unique_id=1002946325]
 layout_mode = 1
@@ -28,6 +29,7 @@ color = Color(0, 0, 0, 1)
 layout_mode = 1
 
 [node name="Credits" type="ColorRect" parent="." unique_id=1226702153]
+visible = false
 layout_mode = 1
 anchors_preset = -1
 anchor_right = 1.0
@@ -64,3 +66,40 @@ Created with Godot editor
 External Fonts:
 \"Syne Mono\" and \"Space Mono\", each under SIL Open Font License, Version 1.1"
 horizontal_alignment = 1
+
+[node name="Options" type="ColorRect" parent="." unique_id=66526894]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 70.0
+offset_top = 70.0
+offset_right = -70.0
+offset_bottom = -140.0
+color = Color(0, 0, 0, 0.5)
+
+[node name="ReferenceRect" type="ReferenceRect" parent="Options" unique_id=1093075991]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+border_color = Color(0.26666668, 0.26666668, 0.26666668, 1)
+border_width = 2.0
+editor_only = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Options" unique_id=1319789478]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Slider1" type="ReferenceRect" parent="Options/VBoxContainer" unique_id=426346802]
+custom_minimum_size = Vector2(100, 50)
+layout_mode = 2
+border_width = 2.0
+editor_only = false
