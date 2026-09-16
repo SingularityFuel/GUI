@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://b8lununx6pesr"]
+
+[ext_resource type="FontFile" uid="uid://c5620j5m6qbvx" path="res://import/font/SpaceMono-Regular.ttf" id="1_exe84"]
+
+[resource]
+default_font = ExtResource("1_exe84")
+default_font_size = 24
